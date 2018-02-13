@@ -1,5 +1,14 @@
 package com.magewars.game.entity.stats;
 
-public class Stat {
-    private double value;
+public class Stat extends Skill {
+    public Stat() {
+    }
+
+    public Stat(String id) {
+        super(id);
+    }
+
+    public Stat(String id, double value) {
+        super(id,value);
+    }
 }
