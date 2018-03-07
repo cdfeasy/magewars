@@ -2,29 +2,30 @@ package com.magewars.game.entity;
 
 public class Mage {
     private String name;
-    private int hp;
-    private int energy;
-    private int str;
-    private int agl;
-    private int control;
-    private int speed;
-    private int end;
-    private int melee;
-    private int weapons;
+    private double hp;
+    private double energy;
+    private double str;
+    private double agility;
+    private double intelligence;
+    private double control;
+    private double speed;
+    private double endurance;
+    private double melee;
+    private double weapons;
 
 
     public Mage() {
     }
 
-    public Mage(String name, int hp, int energy, int str, int agl, int control, int speed, int end, int melee, int weapons) {
+    public Mage(String name, int hp, int energy, int str, int agility, int control, int speed, int endurance, int melee, int weapons) {
         this.name = name;
         this.hp = hp;
         this.energy = energy;
         this.str = str;
-        this.agl = agl;
+        this.agility = agility;
         this.control = control;
         this.speed = speed;
-        this.end = end;
+        this.endurance = endurance;
         this.melee = melee;
         this.weapons = weapons;
     }
@@ -37,75 +38,83 @@ public class Mage {
         this.name = name;
     }
 
-    public int getHp() {
+    public double getHp() {
         return hp;
     }
 
-    public void setHp(int hp) {
+    public void setHp(double hp) {
         this.hp = hp;
     }
 
-    public int getEnergy() {
+    public double getEnergy() {
         return energy;
     }
 
-    public void setEnergy(int energy) {
+    public void setEnergy(double energy) {
         this.energy = energy;
     }
 
-    public int getStr() {
+    public double getStr() {
         return str;
     }
 
-    public void setStr(int str) {
+    public void setStr(double str) {
         this.str = str;
     }
 
-    public int getAgl() {
-        return agl;
+    public double getAgility() {
+        return agility;
     }
 
-    public void setAgl(int agl) {
-        this.agl = agl;
+    public void setAgility(double agility) {
+        this.agility = agility;
     }
 
-    public int getControl() {
+    public double getIntelligence() {
+        return intelligence;
+    }
+
+    public void setIntelligence(double intelligence) {
+        this.intelligence = intelligence;
+    }
+
+    public double getControl() {
         return control;
     }
 
-    public void setControl(int control) {
+    public void setControl(double control) {
         this.control = control;
     }
 
-    public int getSpeed() {
+    public double getSpeed() {
         return speed;
     }
 
-    public void setSpeed(int speed) {
+    public void setSpeed(double speed) {
         this.speed = speed;
     }
 
-    public int getEnd() {
-        return end;
+    public double getEndurance() {
+        return endurance;
     }
 
-    public void setEnd(int end) {
-        this.end = end;
+    public void setEndurance(double endurance) {
+        this.endurance = endurance;
     }
 
-    public int getMelee() {
+    public double getMelee() {
         return melee;
     }
 
-    public void setMelee(int melee) {
+    public void setMelee(double melee) {
         this.melee = melee;
     }
 
-    public int getWeapons() {
+    public double getWeapons() {
         return weapons;
     }
 
-    public void setWeapons(int weapons) {
+    public void setWeapons(double weapons) {
         this.weapons = weapons;
     }
 

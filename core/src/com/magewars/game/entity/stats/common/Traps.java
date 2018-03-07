@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.common;
 
-public class Traps {
+import com.magewars.game.entity.stats.CommonSkill;
+
+public class Traps extends CommonSkill {
 }

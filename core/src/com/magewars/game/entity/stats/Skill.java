@@ -3,8 +3,11 @@ package com.magewars.game.entity.stats;
 public class Skill {
     protected String id;
     protected double value;
+    protected String name;
+    protected String description;
 
     public Skill() {
+
     }
 
     public Skill(String id) {
@@ -34,5 +37,21 @@ public class Skill {
 
     public void change(double delta){
         this.value=value+delta;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

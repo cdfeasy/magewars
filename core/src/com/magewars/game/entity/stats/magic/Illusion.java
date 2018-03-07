@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.magic;
 
-public class Illusion {
+import com.magewars.game.entity.stats.MagicSkill;
+
+public class Illusion extends MagicSkill {
 }

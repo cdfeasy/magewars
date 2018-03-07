@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.common;
 
-public class FastTraveling {
+import com.magewars.game.entity.stats.CommonSkill;
+
+public class FastTraveling extends CommonSkill {
 }

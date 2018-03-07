@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.magic;
 
-public class Healing {
+import com.magewars.game.entity.stats.MagicSkill;
+
+public class Healing extends MagicSkill {
 }

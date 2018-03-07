@@ -1,4 +1,4 @@
 package com.magewars.game.entity.stats.stat;
 
-public class Spirit {
+public class Intelligence {
 }

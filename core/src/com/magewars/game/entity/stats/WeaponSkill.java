@@ -2,6 +2,7 @@ package com.magewars.game.entity.stats;
 
 public class WeaponSkill  extends Skill{
     public WeaponSkill() {
+        setId("weaponSkill"+this.getClass().getSimpleName());
     }
 
     public WeaponSkill(String id) {

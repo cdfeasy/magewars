@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.magic;
 
-public class Shadow {
+import com.magewars.game.entity.stats.MagicSkill;
+
+public class Shadow extends MagicSkill {
 }

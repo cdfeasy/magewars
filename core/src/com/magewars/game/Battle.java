@@ -17,9 +17,9 @@ public class Battle {
                 cur.setEnergy(cur.getEnergy() - 5);
             }
 
-            int aglDiff = (cur.getAgl() - def.getAgl()) / 2;
-            int speedDiff = (cur.getSpeed() - def.getSpeed()) / 2;
-            int wpnDiff = cur.getWeapons() - def.getWeapons();
+            double aglDiff = (cur.getAgility() - def.getAgility()) / 2;
+            double speedDiff = (cur.getSpeed() - def.getSpeed()) / 2;
+            double wpnDiff = cur.getWeapons() - def.getWeapons();
             double _hit =
                     aglDiff +
                             speedDiff +
@@ -31,18 +31,18 @@ public class Battle {
             double dmg = (cur.getStr() * (1 + (double)cur.getWeapons() / 10));
             if (hit < 50) {
                 dmg = 0;
-                String msg = String.format("%s miss %d hp left", cur.getName(), def.getHp());
+                String msg = String.format("%s miss %.0f hp left", cur.getName(), def.getHp());
                 System.out.println(msg);
             } else if (hit < 60) {
                 dmg = dmg / 3;
-                String msg = String.format("%s glance hit  %.2f dmg %d hp left", cur.getName(), dmg, def.getHp());
+                String msg = String.format("%s glance hit  %.0f dmg %.0f hp left", cur.getName(), dmg, def.getHp());
                 System.out.println(msg);
             } else if (hit < 95) {
-                String msg = String.format("%s hit %.2f dmg %d hp left", cur.getName(), dmg, def.getHp());
+                String msg = String.format("%s hit %.2f dmg %.0f hp left", cur.getName(), dmg, def.getHp());
                 System.out.println(msg);
             } else {
                 dmg = dmg * 1.5;
-                String msg = String.format("%s crit hit %.2f dmg %d hp left", cur.getName(), dmg, def.getHp());
+                String msg = String.format("%s crit hit %.2f dmg %.0f hp left", cur.getName(), dmg, def.getHp());
                 System.out.println(msg);
             }
             def.setHp((int) (def.getHp() - dmg));

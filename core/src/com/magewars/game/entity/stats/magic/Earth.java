@@ -1,4 +1,9 @@
 package com.magewars.game.entity.stats.magic;
 
-public class Earth {
+import com.magewars.game.entity.stats.MagicSkill;
+
+public class Earth extends MagicSkill {
+    public Earth(){
+        super("magicAir");
+    }
 }
