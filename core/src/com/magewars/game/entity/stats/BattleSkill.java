@@ -1,15 +1,15 @@
 package com.magewars.game.entity.stats;
 
-public class WeaponSkill  extends Skill{
-    public WeaponSkill() {
+public class BattleSkill extends Skill{
+    public BattleSkill() {
         setId("weaponSkill"+this.getClass().getSimpleName());
     }
 
-    public WeaponSkill(String id) {
+    public BattleSkill(String id) {
         super(id);
     }
 
-    public WeaponSkill(String id, double value) {
+    public BattleSkill(String id, double value) {
         super(id,value);
     }
 }

@@ -2,14 +2,16 @@ package com.magewars.game.entity.ability;
 
 import com.magewars.game.entity.stats.Skill;
 
+import java.util.List;
 import java.util.Map;
 
 public class Ability {
     protected String id;
-    protected double cost;
+    protected AbilityCost cost;
     protected String name;
     protected String description;
     protected Map<Skill,Double> requirement;
+    protected List<AbilityCheck> checks;
 
     public Ability() {
 
@@ -19,7 +21,7 @@ public class Ability {
         this.id = id;
     }
 
-    public Ability(String id, double cost) {
+    public Ability(String id, AbilityCost cost) {
         this.id = id;
         this.cost = cost;
     }
@@ -32,16 +34,12 @@ public class Ability {
         this.id = id;
     }
 
-    public double getCost() {
+    public AbilityCost getCost() {
         return cost;
     }
 
-    public void setCost(double cost) {
+    public void setCost(AbilityCost cost) {
         this.cost = cost;
-    }
-
-    public void change(double delta){
-        this.cost = cost +delta;
     }
 
     public String getName() {
