@@ -1,6 +1,7 @@
 package com.magewars.game.entity.ability;
 
 import com.magewars.game.entity.stats.Skill;
+import com.magewars.game.entity.stats.stat.Strength;
 
 import java.util.List;
 import java.util.Map;
@@ -9,9 +10,12 @@ public class Ability {
     protected String id;
     protected AbilityCost cost;
     protected String name;
+    protected String img;
+    protected String effect;
     protected String description;
     protected Map<Skill,Double> requirement;
     protected List<AbilityCheck> checks;
+    protected List<AbilityDamage> damages;
 
     public Ability() {
 
@@ -64,5 +68,37 @@ public class Ability {
 
     public void setRequirement(Map<Skill, Double> requirement) {
         this.requirement = requirement;
+    }
+
+    public List<AbilityCheck> getChecks() {
+        return checks;
+    }
+
+    public void setChecks(List<AbilityCheck> checks) {
+        this.checks = checks;
+    }
+
+    public List<AbilityDamage> getDamages() {
+        return damages;
+    }
+
+    public void setDamages(List<AbilityDamage> damages) {
+        this.damages = damages;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    public String getEffect() {
+        return effect;
+    }
+
+    public void setEffect(String effect) {
+        this.effect = effect;
     }
 }
