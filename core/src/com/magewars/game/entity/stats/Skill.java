@@ -1,5 +1,16 @@
 package com.magewars.game.entity.stats;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
+@JsonTypeInfo(
+        use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type")
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = BattleSkill.class, name = "battle"),
+        @JsonSubTypes.Type(value = MagicSkill.class, name = "magic"),
+        @JsonSubTypes.Type(value = CommonSkill.class, name = "common")
+})
 public class Skill {
     protected String id;
     protected double value;

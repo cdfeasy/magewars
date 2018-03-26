@@ -1,4 +1,5 @@
 package com.magewars.game.entity;
 
-public class Damage {
+public enum Damage {
+    HIT, POISON, STUN;
 }
