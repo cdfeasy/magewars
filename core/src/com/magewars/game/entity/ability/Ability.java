@@ -1,8 +1,11 @@
 package com.magewars.game.entity.ability;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.magewars.game.entity.stats.Skill;
 import com.magewars.game.entity.stats.stat.Strength;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -13,12 +16,36 @@ public class Ability {
     protected String img;
     protected String effect;
     protected String description;
+    @JsonIgnore
     protected Map<Skill,Double> requirement;
+    protected Map<String,Double> requirementIds;
     protected List<AbilityCheck> checks;
     protected List<AbilityDamage> damages;
 
     public Ability() {
 
+    }
+
+    public Ability(String id, AbilityCost cost, String name, Map<Skill, Double> requirement, List<AbilityCheck> checks, List<AbilityDamage> damages) {
+        this.id = id;
+        this.cost = cost;
+        this.name = name;
+        this.requirement = requirement;
+        this.checks = checks;
+        this.damages = damages;
+        this.requirementIds = new HashMap<String, Double>();
+        for (Map.Entry<Skill, Double> mod : requirement.entrySet()) {
+            this.requirementIds.put(mod.getKey().getId(), mod.getValue());
+        }
+    }
+
+    public Ability(String id, AbilityCost cost, String name, Skill skill, Double requirement, AbilityCheck check, AbilityDamage damage) {
+        this.id = id;
+        this.cost = cost;
+        this.name = name;
+        addRequirement(skill,requirement);
+        addChecks(check);
+        addDamage(damage);
     }
 
     public Ability(String id) {
@@ -70,6 +97,16 @@ public class Ability {
         this.requirement = requirement;
     }
 
+    public void addRequirement(Skill skill, Double value) {
+        if(this.requirement==null){
+            this.requirement=new HashMap<Skill, Double>();
+            this.requirementIds=new HashMap<String, Double>();
+        }
+        this.requirement.put(skill,value);
+        this.requirementIds.put(skill.getId(),value);
+    }
+
+
     public List<AbilityCheck> getChecks() {
         return checks;
     }
@@ -78,12 +115,29 @@ public class Ability {
         this.checks = checks;
     }
 
+    public void addChecks(AbilityCheck check) {
+        if(this.checks==null){
+            this.checks=new ArrayList<AbilityCheck>();
+        }
+        this.checks.add(check);
+    }
+
+
     public List<AbilityDamage> getDamages() {
         return damages;
     }
 
+
+
     public void setDamages(List<AbilityDamage> damages) {
         this.damages = damages;
+    }
+
+    public void addDamage(AbilityDamage damage) {
+        if(this.damages==null){
+            this.damages=new ArrayList<AbilityDamage>();
+        }
+        this.damages.add(damage);
     }
 
     public String getImg() {

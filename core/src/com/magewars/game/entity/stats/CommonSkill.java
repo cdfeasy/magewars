@@ -9,7 +9,7 @@ public class CommonSkill  extends Skill{
         super(id);
     }
 
-    public CommonSkill(String id, double value) {
-        super(id,value);
+    public CommonSkill(String id, String name, String description) {
+        super(id, name, description);
     }
 }

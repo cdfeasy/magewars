@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.stat;
 
-public class HP {
+import com.magewars.game.entity.stats.Stat;
+
+public class HP extends Stat {
 }

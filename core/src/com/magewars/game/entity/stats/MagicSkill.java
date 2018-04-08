@@ -9,7 +9,7 @@ public class MagicSkill extends Skill{
        super(id);
     }
 
-    public MagicSkill(String id, double value) {
-      super(id,value);
+    public MagicSkill(String id, String name, String description) {
+        super(id, name, description);
     }
 }

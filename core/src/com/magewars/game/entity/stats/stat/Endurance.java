@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.stat;
 
-public class Endurance {
+import com.magewars.game.entity.stats.Stat;
+
+public class Endurance extends Stat {
 }

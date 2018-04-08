@@ -5,6 +5,18 @@ public class AbilityCost {
     private Double cost;
     private Double minimal;
 
+    public AbilityCost() {
+    }
+
+    public AbilityCost(Double cost) {
+        this.cost = cost;
+    }
+
+    public AbilityCost(Double percent, Double minimal) {
+        this.percent = percent;
+        this.minimal = minimal;
+    }
+
     public Double getPercent() {
         return percent;
     }

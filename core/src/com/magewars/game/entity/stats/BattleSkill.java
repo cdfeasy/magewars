@@ -9,7 +9,7 @@ public class BattleSkill extends Skill{
         super(id);
     }
 
-    public BattleSkill(String id, double value) {
-        super(id,value);
+    public BattleSkill(String id, String name, String description) {
+        super(id, name, description);
     }
 }

@@ -2,18 +2,17 @@ package com.magewars.game.entity.stats;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
-@JsonTypeInfo(
-        use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.PROPERTY,
-        property = "type")
-@JsonSubTypes({
-        @JsonSubTypes.Type(value = BattleSkill.class, name = "battle"),
-        @JsonSubTypes.Type(value = MagicSkill.class, name = "magic"),
-        @JsonSubTypes.Type(value = CommonSkill.class, name = "common")
-})
+//@JsonTypeInfo(
+//        use = JsonTypeInfo.Id.NAME,
+//        include = JsonTypeInfo.As.PROPERTY,
+//        property = "type")
+//@JsonSubTypes({
+//        @JsonSubTypes.Type(value = BattleSkill.class, name = "battle"),
+//        @JsonSubTypes.Type(value = MagicSkill.class, name = "magic"),
+//        @JsonSubTypes.Type(value = CommonSkill.class, name = "common")
+//})
 public class Skill {
     protected String id;
-    protected double value;
     protected String name;
     protected String description;
 
@@ -21,13 +20,14 @@ public class Skill {
 
     }
 
-    public Skill(String id) {
+    public Skill(String id, String name, String description) {
         this.id = id;
+        this.name = name;
+        this.description = description;
     }
 
-    public Skill(String id, double value) {
+    public Skill(String id) {
         this.id = id;
-        this.value = value;
     }
 
     public String getId() {
@@ -36,18 +36,6 @@ public class Skill {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public double getValue() {
-        return value;
-    }
-
-    public void setValue(double value) {
-        this.value = value;
-    }
-
-    public void change(double delta){
-        this.value=value+delta;
     }
 
     public String getName() {

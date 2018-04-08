@@ -1,4 +1,6 @@
 package com.magewars.game.entity.stats.stat;
 
-public class Agility {
+import com.magewars.game.entity.stats.Stat;
+
+public class Agility extends Stat {
 }
