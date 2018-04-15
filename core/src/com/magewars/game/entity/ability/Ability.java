@@ -1,6 +1,7 @@
 package com.magewars.game.entity.ability;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.magewars.game.entity.SpecRule;
 import com.magewars.game.entity.stats.Skill;
 import com.magewars.game.entity.stats.stat.Strength;
 
@@ -16,6 +17,11 @@ public class Ability {
     protected String img;
     protected String effect;
     protected String description;
+
+    protected Integer minLength;
+    protected Integer maxLength;
+    protected List<SpecRule> specRules;
+
     @JsonIgnore
     protected Map<Skill,Double> requirement;
     protected Map<String,Double> requirementIds;
@@ -154,5 +160,37 @@ public class Ability {
 
     public void setEffect(String effect) {
         this.effect = effect;
+    }
+
+    public Integer getMinLength() {
+        return minLength;
+    }
+
+    public void setMinLength(Integer minLength) {
+        this.minLength = minLength;
+    }
+
+    public Integer getMaxLength() {
+        return maxLength;
+    }
+
+    public void setMaxLength(Integer maxLength) {
+        this.maxLength = maxLength;
+    }
+
+    public Map<String, Double> getRequirementIds() {
+        return requirementIds;
+    }
+
+    public void setRequirementIds(Map<String, Double> requirementIds) {
+        this.requirementIds = requirementIds;
+    }
+
+    public List<SpecRule> getSpecRules() {
+        return specRules;
+    }
+
+    public void setSpecRules(List<SpecRule> specRules) {
+        this.specRules = specRules;
     }
 }
