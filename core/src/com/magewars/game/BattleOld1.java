@@ -4,7 +4,7 @@ import com.magewars.game.entity.Mage;
 
 import java.util.Random;
 
-public class Battle {
+public class BattleOld {
     public void battle(Mage mage1, Mage mage2) {
         Mage cur = mage1;
         Mage def = mage2;
@@ -60,8 +60,8 @@ public class Battle {
     public static void main(String[] args) {
         Mage mage1 = new Mage("Mage1", 3000, 1000, 100, 100, 100, 100, 100, 7, 7);
         Mage mage2 = new Mage("Mage2", 1000, 1000, 110, 120, 100, 120, 100, 2, 2);
-        Battle battle = new Battle();
-        battle.battle(mage1, mage2);
+        BattleOld battleOld = new BattleOld();
+        battleOld.battle(mage1, mage2);
 
 
     }
