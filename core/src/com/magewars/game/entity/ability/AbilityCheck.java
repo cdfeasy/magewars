@@ -30,7 +30,7 @@ public class AbilityCheck {
     public AbilityCheck(Skill attack, Skill defend) {
         this.attack = attack;
         this.defend = defend;
-        this.modificator=1d;
+        this.modificator=100d;
         this.attackId=attack.getId();
         this.defendId=defend.getId();
     }

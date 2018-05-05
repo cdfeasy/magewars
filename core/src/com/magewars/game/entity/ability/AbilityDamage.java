@@ -25,6 +25,9 @@ public class AbilityDamage {
         this.damageType = damageType;
         this.damage = damage;
         this.modificatorsIds = new HashMap<String, Double>();
+        if(modificators==null){
+            modificators=new HashMap<Skill, Double>();
+        }
         for (Map.Entry<Skill, Double> mod : modificators.entrySet()) {
             this.modificatorsIds.put(mod.getKey().getId(), mod.getValue());
         }
