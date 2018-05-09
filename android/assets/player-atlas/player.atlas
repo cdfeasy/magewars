@@ -1,0 +1,6957 @@
+
+player.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+barding/black_knight
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/centaur_barding_blue
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/centaur_barding_magenta
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/centaur_barding_metal
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/centaur_barding_red
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/lightning_scales
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/naga_barding_blue
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/naga_barding_magenta
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/naga_barding_metal
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+barding/naga_barding_red
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player2.png
+size: 4096,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+base/centaur_brown_female
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_brown_male
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_darkbrown_female
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_darkbrown_male
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_darkgrey_female
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_darkgrey_male
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_lightbrown_female
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_lightbrown_male
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_lightgrey_female
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/centaur_lightgrey_male
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/deep_dwarf_female
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/deep_dwarf_male
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/deep_elf_female
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/deep_elf_male
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demigod_male
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demonspawn_black_female
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demonspawn_black_male
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demonspawn_pink
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demonspawn_red_female
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/demonspawn_red_male
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_black_female
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_black_male
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_female
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_gold_female
+  rotate: false
+  xy: 784, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_gold_male
+  rotate: false
+  xy: 818, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_gray_female
+  rotate: false
+  xy: 852, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_gray_male
+  rotate: false
+  xy: 886, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_green_female
+  rotate: false
+  xy: 920, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_green_male
+  rotate: false
+  xy: 954, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_male
+  rotate: false
+  xy: 988, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_mottled_female
+  rotate: false
+  xy: 1022, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_mottled_male
+  rotate: false
+  xy: 1056, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_pale_female
+  rotate: false
+  xy: 1090, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_pale_male
+  rotate: false
+  xy: 1124, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_purple_female
+  rotate: false
+  xy: 1158, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_purple_male
+  rotate: false
+  xy: 1192, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_red_female
+  rotate: false
+  xy: 1226, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_red_male
+  rotate: false
+  xy: 1260, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_white_female
+  rotate: false
+  xy: 1294, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/draconian_white_male
+  rotate: false
+  xy: 1328, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/dwarf_female
+  rotate: false
+  xy: 1362, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/dwarf_male
+  rotate: false
+  xy: 1396, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/elf_female
+  rotate: false
+  xy: 1430, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/elf_male
+  rotate: false
+  xy: 1464, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/formicid
+  rotate: false
+  xy: 1498, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/gargoyle_female
+  rotate: false
+  xy: 1532, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/gargoyle_male
+  rotate: false
+  xy: 1566, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/ghoul
+  rotate: false
+  xy: 1600, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/ghoul_2_female
+  rotate: false
+  xy: 1634, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/ghoul_2_male
+  rotate: false
+  xy: 1668, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/gnome_female
+  rotate: false
+  xy: 1702, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/gnome_male
+  rotate: false
+  xy: 1736, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/halfling_female
+  rotate: false
+  xy: 1770, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/halfling_male
+  rotate: false
+  xy: 1804, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/human_female
+  rotate: false
+  xy: 1838, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/human_male
+  rotate: false
+  xy: 1872, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kenku_winged_female
+  rotate: false
+  xy: 1906, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kenku_winged_male
+  rotate: false
+  xy: 1940, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kenku_wingless_female
+  rotate: false
+  xy: 1974, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kenku_wingless_male
+  rotate: false
+  xy: 2008, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kobold_female_new
+  rotate: false
+  xy: 2042, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kobold_female_old
+  rotate: false
+  xy: 2076, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kobold_male_new
+  rotate: false
+  xy: 2110, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/kobold_male_old
+  rotate: false
+  xy: 2144, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/lorc_female
+  rotate: false
+  xy: 2178, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+base/lorc_female
+  rotate: false
+  xy: 2212, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+base/lorc_female
+  rotate: false
+  xy: 2246, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+base/lorc_female
+  rotate: false
+  xy: 2280, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+base/lorc_female
+  rotate: false
+  xy: 2314, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+base/lorc_female
+  rotate: false
+  xy: 2348, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+base/lorc_female
+  rotate: false
+  xy: 2382, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+base/lorc_male
+  rotate: false
+  xy: 2416, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+base/lorc_male
+  rotate: false
+  xy: 2450, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+base/lorc_male
+  rotate: false
+  xy: 2484, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+base/lorc_male
+  rotate: false
+  xy: 2518, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+base/lorc_male
+  rotate: false
+  xy: 2552, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+base/lorc_male
+  rotate: false
+  xy: 2586, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+base/lorc_male
+  rotate: false
+  xy: 2620, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+base/merfolk_female
+  rotate: false
+  xy: 2654, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/merfolk_male
+  rotate: false
+  xy: 2688, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/merfolk_water_female
+  rotate: false
+  xy: 2722, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/merfolk_water_male
+  rotate: false
+  xy: 2756, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/minotaur_brown_1_male
+  rotate: false
+  xy: 2790, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/minotaur_brown_2_male
+  rotate: false
+  xy: 2824, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/minotaur_female
+  rotate: false
+  xy: 2858, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/minotaur_male
+  rotate: false
+  xy: 2892, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/mummy_female
+  rotate: false
+  xy: 2926, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/mummy_male
+  rotate: false
+  xy: 2960, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_blue_female
+  rotate: false
+  xy: 2994, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_blue_male
+  rotate: false
+  xy: 3028, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_darkgreen_female
+  rotate: false
+  xy: 3062, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_darkgreen_male
+  rotate: false
+  xy: 3096, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_female
+  rotate: false
+  xy: 3130, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_lightgreen_female
+  rotate: false
+  xy: 3164, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_lightgreen_male
+  rotate: false
+  xy: 3198, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_male
+  rotate: false
+  xy: 3232, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_red_female
+  rotate: false
+  xy: 3266, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/naga_red_male
+  rotate: false
+  xy: 3300, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/octopode
+  rotate: false
+  xy: 3334, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+base/octopode
+  rotate: false
+  xy: 3368, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+base/octopode
+  rotate: false
+  xy: 3402, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+base/octopode
+  rotate: false
+  xy: 3436, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+base/octopode
+  rotate: false
+  xy: 3470, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+base/ogre_female
+  rotate: false
+  xy: 3504, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/ogre_male
+  rotate: false
+  xy: 3538, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/orc_female
+  rotate: false
+  xy: 3572, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/orc_male
+  rotate: false
+  xy: 3606, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/shadow
+  rotate: false
+  xy: 3640, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/spriggan_female
+  rotate: false
+  xy: 3674, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/spriggan_male
+  rotate: false
+  xy: 3708, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/tengu_wingless_brown_female
+  rotate: false
+  xy: 3742, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/tengu_wingless_brown_male
+  rotate: false
+  xy: 3776, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/troll_female
+  rotate: false
+  xy: 3810, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/troll_male
+  rotate: false
+  xy: 3844, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/vampire_female
+  rotate: false
+  xy: 3878, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+base/vampire_male
+  rotate: false
+  xy: 3912, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player3.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+beard/long_black
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/long_green
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/long_red
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/long_white
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/long_yellow
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/pj
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/short_black
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/short_green
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/short_red
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/short_white
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+beard/short_yellow
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player4.png
+size: 2048,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+body/animal_skin
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/aragorn
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/aragorn
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/armor_blue_gold
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/armor_mummy
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/arwen
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/banded
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/banded
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/belt
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+body/belt
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/bikini_red
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/bloody
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/boromir
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/bplate_green
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/bplate_metal
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+body/breast_black
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/chainmail
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/chainmail
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/china_red
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/china_red
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/chunli
+  rotate: false
+  xy: 240, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/coat_black
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/coat_red
+  rotate: false
+  xy: 240, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/crystal_plate
+  rotate: false
+  xy: 274, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_blue_new
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_blue_old
+  rotate: false
+  xy: 274, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_brown_new
+  rotate: false
+  xy: 308, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_brown_old
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_cyan_new
+  rotate: false
+  xy: 308, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_cyan_old
+  rotate: false
+  xy: 342, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_gold_new
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_gold_old
+  rotate: false
+  xy: 342, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_green
+  rotate: false
+  xy: 376, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_magenta_new
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_magenta_old
+  rotate: false
+  xy: 376, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_pearl
+  rotate: false
+  xy: 410, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_quicksilver
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_shadow
+  rotate: false
+  xy: 410, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_white_new
+  rotate: false
+  xy: 444, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_armor_white_old
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_blue_new
+  rotate: false
+  xy: 444, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_blue_old
+  rotate: false
+  xy: 478, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_brown_new
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_brown_old
+  rotate: false
+  xy: 478, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_cyan_new
+  rotate: false
+  xy: 512, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_cyan_old
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_gold_new
+  rotate: false
+  xy: 512, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_gold_old
+  rotate: false
+  xy: 546, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_green
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_magenta_new
+  rotate: false
+  xy: 546, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_magenta_old
+  rotate: false
+  xy: 580, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_pearl
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_quicksilver
+  rotate: false
+  xy: 580, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_shadow
+  rotate: false
+  xy: 614, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_white_new
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dragon_scale_white_old
+  rotate: false
+  xy: 614, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dress_green
+  rotate: false
+  xy: 648, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/dress_white
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/faerie_dragon_armor
+  rotate: false
+  xy: 648, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/frodo
+  rotate: false
+  xy: 682, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/gandalf_g
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/gil-galad
+  rotate: false
+  xy: 682, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/gimli
+  rotate: false
+  xy: 716, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/green_chain
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/green_susp
+  rotate: false
+  xy: 716, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/half_plate
+  rotate: false
+  xy: 750, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/half_plate
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/half_plate
+  rotate: false
+  xy: 750, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/isildur
+  rotate: false
+  xy: 784, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/jacket
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/jacket
+  rotate: false
+  xy: 784, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/jacket_stud
+  rotate: false
+  xy: 818, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/jessica
+  rotate: false
+  xy: 784, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/karate
+  rotate: false
+  xy: 818, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/karate
+  rotate: false
+  xy: 852, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/lears_chain_mail
+  rotate: false
+  xy: 818, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather
+  rotate: false
+  xy: 852, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/leather_armor
+  rotate: false
+  xy: 886, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_armor
+  rotate: false
+  xy: 852, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/leather_armor
+  rotate: false
+  xy: 886, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/leather_green
+  rotate: false
+  xy: 920, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_heavy
+  rotate: false
+  xy: 886, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_jacket
+  rotate: false
+  xy: 920, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_metal
+  rotate: false
+  xy: 954, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_red
+  rotate: false
+  xy: 920, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_short
+  rotate: false
+  xy: 954, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/leather_stud
+  rotate: false
+  xy: 988, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/legolas
+  rotate: false
+  xy: 954, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/maxwell_new
+  rotate: false
+  xy: 988, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/maxwell_old
+  rotate: false
+  xy: 1022, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/merry
+  rotate: false
+  xy: 988, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/mesh_black
+  rotate: false
+  xy: 1022, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/mesh_red
+  rotate: false
+  xy: 1056, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/metal_blue
+  rotate: false
+  xy: 1022, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/monk_black
+  rotate: false
+  xy: 1056, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/monk_blue
+  rotate: false
+  xy: 1090, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/neck
+  rotate: false
+  xy: 1056, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/orange_crystal
+  rotate: false
+  xy: 1090, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/pipin
+  rotate: false
+  xy: 1124, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/pj
+  rotate: false
+  xy: 1090, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/plate
+  rotate: false
+  xy: 1124, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/plate
+  rotate: false
+  xy: 1158, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/plate_and_cloth
+  rotate: false
+  xy: 1124, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/plate_and_cloth
+  rotate: false
+  xy: 1158, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/plate_black
+  rotate: false
+  xy: 1192, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/ringmail
+  rotate: false
+  xy: 1158, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_black
+  rotate: false
+  xy: 1192, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_black_gold
+  rotate: false
+  xy: 1226, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_black_hood
+  rotate: false
+  xy: 1192, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_black_red
+  rotate: false
+  xy: 1226, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_blue
+  rotate: false
+  xy: 1260, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_blue_green
+  rotate: false
+  xy: 1226, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_blue_white
+  rotate: false
+  xy: 1260, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_brown
+  rotate: false
+  xy: 1294, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_brown
+  rotate: false
+  xy: 1260, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/robe_brown
+  rotate: false
+  xy: 1294, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/robe_clouds
+  rotate: false
+  xy: 1328, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_cyan
+  rotate: false
+  xy: 1294, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_gray
+  rotate: false
+  xy: 1328, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/robe_green
+  rotate: false
+  xy: 1362, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_green_gold
+  rotate: false
+  xy: 1328, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_jester
+  rotate: false
+  xy: 1362, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_misfortune
+  rotate: false
+  xy: 1396, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_of_night
+  rotate: false
+  xy: 1362, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_purple
+  rotate: false
+  xy: 1396, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_rainbow
+  rotate: false
+  xy: 1430, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_red
+  rotate: false
+  xy: 1396, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_red
+  rotate: false
+  xy: 1430, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/robe_red
+  rotate: false
+  xy: 1464, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/robe_red_gold
+  rotate: false
+  xy: 1430, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_white
+  rotate: false
+  xy: 1464, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_white
+  rotate: false
+  xy: 1498, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/robe_white_blue
+  rotate: false
+  xy: 1464, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_white_green
+  rotate: false
+  xy: 1498, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_white_red
+  rotate: false
+  xy: 1532, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/robe_yellow
+  rotate: false
+  xy: 1498, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/sam
+  rotate: false
+  xy: 1532, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/saruman
+  rotate: false
+  xy: 1566, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/scalemail
+  rotate: false
+  xy: 1532, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/scalemail
+  rotate: false
+  xy: 1566, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/shirt_black
+  rotate: false
+  xy: 1600, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_black
+  rotate: false
+  xy: 1566, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/shirt_black_and_cloth
+  rotate: false
+  xy: 1600, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_blue
+  rotate: false
+  xy: 1634, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_check
+  rotate: false
+  xy: 1600, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_hawaii
+  rotate: false
+  xy: 1634, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_vest
+  rotate: false
+  xy: 1668, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shirt_white
+  rotate: false
+  xy: 1634, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+body/shirt_white
+  rotate: false
+  xy: 1668, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/shirt_white
+  rotate: false
+  xy: 1702, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+body/shirt_white_yellow
+  rotate: false
+  xy: 1668, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/shoulder_pad
+  rotate: false
+  xy: 1702, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/skirt_onep_grey
+  rotate: false
+  xy: 1736, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/slit_black
+  rotate: false
+  xy: 1702, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/susp_black
+  rotate: false
+  xy: 1736, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/troll_hide
+  rotate: false
+  xy: 1770, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/vanhel
+  rotate: false
+  xy: 1736, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+body/vest_red
+  rotate: false
+  xy: 1770, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+body/vest_red
+  rotate: false
+  xy: 1804, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+body/zhor
+  rotate: false
+  xy: 1770, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player5.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+boots/blue_gold
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/hooves
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/long_red
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/long_white
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/mesh_black
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/mesh_blue
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/mesh_red
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/mesh_white
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_brown
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_brown
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+boots/middle_brown
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+boots/middle_gold
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_gray
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_green
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_purple
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/middle_ybrown
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/pj
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/short_brown
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/short_brown
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+boots/short_purple
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/short_red
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+boots/spider
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player6.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+cloak/black
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/blue
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/brown
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/cyan
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/dragonskin
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/gray
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/green
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/magenta
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/ratskin
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/red
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/white
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cloak/yellow
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player7.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+draconic_head/draconic_head_black
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_brown
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_green
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_grey
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_mottled
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_pale
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_purple
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_red
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_white
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_head/draconic_head_yellow
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player8.png
+size: 512,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+draconic_wing/draconic_wing_black
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_brown
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_green
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_grey
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_mottled
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_pale
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_purple
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_red
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_white
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+draconic_wing/draconic_wing_yellow
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player9.png
+size: 64,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+enchantment/sticky_flame
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player10.png
+size: 256,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+felids/cat
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+felids/cat
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+felids/cat
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 8
+felids/cat
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+felids/cat
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+
+player11.png
+size: 256,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gloves/claws
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/gauntlet_blue
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_black
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_black
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+gloves/glove_blue
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_brown
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_chunli
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_gold
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_gray
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_grayfist
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_orange
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_purple
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_red
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_blue
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_gray
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_green
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_red
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_white
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_short_yellow
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_white
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+gloves/glove_wrist_purple
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player12.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hair/aragorn
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/arwen
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/boromir
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/brown
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hair/brown
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hair/djinn
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hair/djinn
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hair/elf_black
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/elf_red
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/elf_white
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/elf_yellow
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/fem_black
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/fem_red
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/fem_white
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/fem_yellow
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/frodo
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/green
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/knot_red
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/legolas
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/long_black
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/long_red
+  rotate: false
+  xy: 240, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/long_white
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/long_yellow
+  rotate: false
+  xy: 240, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/merry
+  rotate: false
+  xy: 274, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/pigtail_red
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/pigtails_brown
+  rotate: false
+  xy: 274, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/pigtails_yellow
+  rotate: false
+  xy: 308, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/pj
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/ponytail_yellow
+  rotate: false
+  xy: 308, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/sam
+  rotate: false
+  xy: 342, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/short_black
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/short_red
+  rotate: false
+  xy: 342, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/short_white
+  rotate: false
+  xy: 376, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/short_yellow
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hair/tengu_comb
+  rotate: false
+  xy: 376, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player13.png
+size: 64,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+halo/halo_player
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player14.png
+size: 2048,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hand_left/boromir
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/buckler_green
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/buckler_rb
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/buckler_round
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/buckler_round
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_left/buckler_spiral
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/bullseye
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/gil-galad
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/gong
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_gold
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_green
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_long_red
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_louise
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_quartered
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_spiral
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/lshield_teal
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_dd
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_dd_scion
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_diamond_yellow
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_donald
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_draconic_knight
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_goblin
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_holy
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_kite
+  rotate: false
+  xy: 784, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hand_left/shield_kite
+  rotate: false
+  xy: 818, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/shield_kite
+  rotate: false
+  xy: 852, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_left/shield_kite
+  rotate: false
+  xy: 886, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_left/shield_knight_blue
+  rotate: false
+  xy: 920, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_knight_gray
+  rotate: false
+  xy: 954, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_knight_rw
+  rotate: false
+  xy: 988, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_large_dd_dk
+  rotate: false
+  xy: 1022, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_long_cross
+  rotate: false
+  xy: 1056, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_long_red
+  rotate: false
+  xy: 1090, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_black
+  rotate: false
+  xy: 1124, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_brown
+  rotate: false
+  xy: 1158, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_cyan
+  rotate: false
+  xy: 1192, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_ethn
+  rotate: false
+  xy: 1226, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_gray
+  rotate: false
+  xy: 1260, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_round
+  rotate: false
+  xy: 1294, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_middle_unicorn
+  rotate: false
+  xy: 1328, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_of_ignorance
+  rotate: false
+  xy: 1362, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_of_resistance
+  rotate: false
+  xy: 1396, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_round
+  rotate: false
+  xy: 1430, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hand_left/shield_round
+  rotate: false
+  xy: 1464, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/shield_round
+  rotate: false
+  xy: 1498, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_left/shield_round
+  rotate: false
+  xy: 1532, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_left/shield_round
+  rotate: false
+  xy: 1566, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+hand_left/shield_round
+  rotate: false
+  xy: 1600, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+hand_left/shield_round
+  rotate: false
+  xy: 1634, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+hand_left/shield_round_small
+  rotate: false
+  xy: 1668, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_round_white
+  rotate: false
+  xy: 1702, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_shaman
+  rotate: false
+  xy: 1736, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_skull
+  rotate: false
+  xy: 1770, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/shield_spriggan
+  rotate: false
+  xy: 1804, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player15.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hand_left/misc/book_black
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_blue
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_blue_dim
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_cyan
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_cyan_dim
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_green
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_green_dim
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_magenta
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_magenta_dim
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_red
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_red_dim
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_sky
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_white
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_yellow
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/book_yellow_dim
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/dagger_new
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/dagger_old
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/fire_cyan
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/fire_dark
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/fire_green
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/fire_white
+  rotate: false
+  xy: 240, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/fire_white
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/misc/flail_great
+  rotate: false
+  xy: 240, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/flail_great
+  rotate: false
+  xy: 274, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/misc/giant_club
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/giant_club_plain
+  rotate: false
+  xy: 274, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/giant_club_slant
+  rotate: false
+  xy: 308, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/giant_club_spike
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/giant_club_spike_slant
+  rotate: false
+  xy: 308, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/great_mace
+  rotate: false
+  xy: 342, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/great_mace
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/misc/lantern
+  rotate: false
+  xy: 342, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/light_blue
+  rotate: false
+  xy: 376, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/light_red
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/light_yellow
+  rotate: false
+  xy: 376, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/pj
+  rotate: false
+  xy: 410, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/rapier
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/misc/sabre
+  rotate: false
+  xy: 410, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/short_sword_slant
+  rotate: false
+  xy: 444, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_left/misc/short_sword_slant_new
+  rotate: false
+  xy: 478, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/short_sword_slant_old
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/spark
+  rotate: false
+  xy: 444, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/torch
+  rotate: false
+  xy: 478, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_left/misc/torch
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+
+player16.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hand_right/aragorn
+  rotate: false
+  xy: 2, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/arwen
+  rotate: false
+  xy: 2, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe
+  rotate: false
+  xy: 36, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_blood
+  rotate: false
+  xy: 2, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_double
+  rotate: false
+  xy: 36, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_executioner
+  rotate: false
+  xy: 70, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/axe_executioner_new
+  rotate: false
+  xy: 2, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_executioner_old
+  rotate: false
+  xy: 36, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_short
+  rotate: false
+  xy: 70, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/axe_small
+  rotate: false
+  xy: 104, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/battleaxe
+  rotate: false
+  xy: 2, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/battleaxe
+  rotate: false
+  xy: 36, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/black_sword
+  rotate: false
+  xy: 70, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/black_whip_new
+  rotate: false
+  xy: 104, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/black_whip_old
+  rotate: false
+  xy: 138, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/blessed_blade
+  rotate: false
+  xy: 2, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/blowgun
+  rotate: false
+  xy: 36, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/boromir
+  rotate: false
+  xy: 70, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/bow
+  rotate: false
+  xy: 104, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/bow
+  rotate: false
+  xy: 138, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/bow
+  rotate: false
+  xy: 172, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/bow_blue
+  rotate: false
+  xy: 2, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/broad_axe
+  rotate: false
+  xy: 36, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/broadsword
+  rotate: false
+  xy: 70, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/club
+  rotate: false
+  xy: 104, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/club
+  rotate: false
+  xy: 138, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/club
+  rotate: false
+  xy: 172, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/club_slant
+  rotate: false
+  xy: 206, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/crossbow
+  rotate: false
+  xy: 2, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/crossbow
+  rotate: false
+  xy: 36, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/crossbow
+  rotate: false
+  xy: 70, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/crossbow
+  rotate: false
+  xy: 104, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_right/d_glaive
+  rotate: false
+  xy: 138, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/dagger_new
+  rotate: false
+  xy: 172, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/dagger_old
+  rotate: false
+  xy: 206, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/dagger_slant
+  rotate: false
+  xy: 240, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/dagger_slant_new
+  rotate: false
+  xy: 2, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/dagger_slant_old
+  rotate: false
+  xy: 36, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/dart
+  rotate: false
+  xy: 70, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/double_sword
+  rotate: false
+  xy: 104, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/double_sword
+  rotate: false
+  xy: 138, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/double_sword_new
+  rotate: false
+  xy: 172, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/double_sword_old
+  rotate: false
+  xy: 206, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/enchantress_dagger
+  rotate: false
+  xy: 240, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/eveningstar
+  rotate: false
+  xy: 274, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/eveningstar_new
+  rotate: false
+  xy: 2, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/eveningstar_old
+  rotate: false
+  xy: 36, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/falchion
+  rotate: false
+  xy: 70, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/falchion_new
+  rotate: false
+  xy: 104, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/falchion_old
+  rotate: false
+  xy: 138, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_ball
+  rotate: false
+  xy: 172, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/flail_ball
+  rotate: false
+  xy: 206, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_right/flail_ball_2_new
+  rotate: false
+  xy: 240, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_ball_2_old
+  rotate: false
+  xy: 274, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_ball_new
+  rotate: false
+  xy: 308, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_ball_old
+  rotate: false
+  xy: 2, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_balls
+  rotate: false
+  xy: 36, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_great
+  rotate: false
+  xy: 70, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_great
+  rotate: false
+  xy: 104, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/flail_spike
+  rotate: false
+  xy: 138, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_spike
+  rotate: false
+  xy: 172, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/flail_stick
+  rotate: false
+  xy: 206, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/flail_stick_slant
+  rotate: false
+  xy: 240, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/fork
+  rotate: false
+  xy: 274, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/frodo
+  rotate: false
+  xy: 308, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/gandalf
+  rotate: false
+  xy: 342, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/giant_club
+  rotate: false
+  xy: 2, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/giant_club_plain
+  rotate: false
+  xy: 36, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/giant_club_slant
+  rotate: false
+  xy: 70, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/giant_club_spike
+  rotate: false
+  xy: 104, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/giant_club_spike_slant
+  rotate: false
+  xy: 138, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/gimli
+  rotate: false
+  xy: 172, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/glaive
+  rotate: false
+  xy: 206, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/glaive
+  rotate: false
+  xy: 240, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/glaive_new
+  rotate: false
+  xy: 274, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/glaive_old
+  rotate: false
+  xy: 308, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/glaive_three
+  rotate: false
+  xy: 342, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/glaive_three
+  rotate: false
+  xy: 376, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/great_axe
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_bow
+  rotate: false
+  xy: 36, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_mace
+  rotate: false
+  xy: 70, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_mace
+  rotate: false
+  xy: 104, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/great_staff
+  rotate: false
+  xy: 138, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_sword
+  rotate: false
+  xy: 172, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_sword_slant
+  rotate: false
+  xy: 206, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/great_sword_slant_new
+  rotate: false
+  xy: 240, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/great_sword_slant_old
+  rotate: false
+  xy: 274, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/greatsling
+  rotate: false
+  xy: 308, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/halberd_new
+  rotate: false
+  xy: 342, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/halberd_old
+  rotate: false
+  xy: 376, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hammer
+  rotate: false
+  xy: 410, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/hammer_2_new
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hammer_2_old
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hammer_new
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hammer_old
+  rotate: false
+  xy: 70, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hand_axe
+  rotate: false
+  xy: 104, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/hand_axe_new
+  rotate: false
+  xy: 138, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hand_axe_old
+  rotate: false
+  xy: 172, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/hand_crossbow
+  rotate: false
+  xy: 206, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/heavy_sword
+  rotate: false
+  xy: 240, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/holy_scourge
+  rotate: false
+  xy: 274, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hand_right/holy_scourge
+  rotate: false
+  xy: 308, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/hook
+  rotate: false
+  xy: 342, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/katana
+  rotate: false
+  xy: 376, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/katana_slant
+  rotate: false
+  xy: 410, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/knife
+  rotate: false
+  xy: 444, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/lance
+  rotate: false
+  xy: 478, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/lance
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/large_mace
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/legolas
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/long_sword
+  rotate: false
+  xy: 104, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/long_sword_slant
+  rotate: false
+  xy: 138, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/long_sword_slant_new
+  rotate: false
+  xy: 172, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/long_sword_slant_old
+  rotate: false
+  xy: 206, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace
+  rotate: false
+  xy: 240, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/mace_2_new
+  rotate: false
+  xy: 274, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace_2_old
+  rotate: false
+  xy: 308, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace_new
+  rotate: false
+  xy: 342, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace_old
+  rotate: false
+  xy: 376, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace_ruby_new
+  rotate: false
+  xy: 410, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/mace_ruby_old
+  rotate: false
+  xy: 444, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/morningstar_2_new
+  rotate: false
+  xy: 478, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/morningstar_2_old
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/morningstar_new
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/morningstar_old
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/nunchaku
+  rotate: false
+  xy: 138, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/pick_axe
+  rotate: false
+  xy: 172, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/pike
+  rotate: false
+  xy: 206, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/pole_forked
+  rotate: false
+  xy: 240, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/quarterstaff
+  rotate: false
+  xy: 274, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/quarterstaff
+  rotate: false
+  xy: 308, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hand_right/quarterstaff
+  rotate: false
+  xy: 342, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/quarterstaff
+  rotate: false
+  xy: 376, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_right/quarterstaff_2_new
+  rotate: false
+  xy: 410, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/quarterstaff_2_old
+  rotate: false
+  xy: 444, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/quarterstaff_jester
+  rotate: false
+  xy: 478, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rapier
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rapier
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/rod_aries_new
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_aries_old
+  rotate: false
+  xy: 172, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_blue_new
+  rotate: false
+  xy: 206, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_blue_old
+  rotate: false
+  xy: 240, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_brown_new
+  rotate: false
+  xy: 274, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_brown_old
+  rotate: false
+  xy: 308, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_emerald_new
+  rotate: false
+  xy: 342, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_emerald_old
+  rotate: false
+  xy: 376, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_forked_new
+  rotate: false
+  xy: 410, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_forked_old
+  rotate: false
+  xy: 444, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_hammer_new
+  rotate: false
+  xy: 478, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_hammer_old
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_magenta_new
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_magenta_old
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_moon_new
+  rotate: false
+  xy: 206, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_moon_old
+  rotate: false
+  xy: 240, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_ruby_new
+  rotate: false
+  xy: 274, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_ruby_old
+  rotate: false
+  xy: 308, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_thick_new
+  rotate: false
+  xy: 342, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/rod_thick_old
+  rotate: false
+  xy: 376, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sabre
+  rotate: false
+  xy: 410, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/saruman
+  rotate: false
+  xy: 444, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scepter
+  rotate: false
+  xy: 478, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scimitar_new
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scimitar_old
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scythe
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/scythe_new
+  rotate: false
+  xy: 240, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scythe_old
+  rotate: false
+  xy: 274, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/scythe_slant
+  rotate: false
+  xy: 308, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/short_sword
+  rotate: false
+  xy: 342, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/short_sword
+  rotate: false
+  xy: 376, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/short_sword_slant
+  rotate: false
+  xy: 410, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/short_sword_slant
+  rotate: false
+  xy: 444, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/short_sword_slant_new
+  rotate: false
+  xy: 478, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/short_sword_slant_old
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sickle
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sling
+  rotate: false
+  xy: 240, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/spear
+  rotate: false
+  xy: 274, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/spear
+  rotate: false
+  xy: 308, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+hand_right/spear
+  rotate: false
+  xy: 342, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/spear
+  rotate: false
+  xy: 376, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+hand_right/spear
+  rotate: false
+  xy: 410, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+hand_right/spear_2_new
+  rotate: false
+  xy: 444, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/spear_2_old
+  rotate: false
+  xy: 478, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_evil
+  rotate: false
+  xy: 240, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_fancy
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_fork
+  rotate: false
+  xy: 274, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_large
+  rotate: false
+  xy: 308, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_mage
+  rotate: false
+  xy: 342, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_mage
+  rotate: false
+  xy: 376, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/staff_mummy
+  rotate: false
+  xy: 410, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_organic
+  rotate: false
+  xy: 444, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_plain
+  rotate: false
+  xy: 478, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_ring_blue
+  rotate: false
+  xy: 274, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_ruby
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_scepter
+  rotate: false
+  xy: 308, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/staff_skull
+  rotate: false
+  xy: 342, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/stick
+  rotate: false
+  xy: 376, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword
+  rotate: false
+  xy: 410, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/sword
+  rotate: false
+  xy: 444, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/sword_black
+  rotate: false
+  xy: 478, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_breaker
+  rotate: false
+  xy: 308, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_jag
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_seven
+  rotate: false
+  xy: 342, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_thief
+  rotate: false
+  xy: 376, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_tri
+  rotate: false
+  xy: 410, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/sword_twist
+  rotate: false
+  xy: 444, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trident
+  rotate: false
+  xy: 478, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trident
+  rotate: false
+  xy: 342, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/trident
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+hand_right/trident_demon
+  rotate: false
+  xy: 376, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trident_elec
+  rotate: false
+  xy: 410, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trident_two
+  rotate: false
+  xy: 444, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trident_two
+  rotate: false
+  xy: 478, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/triple_sword
+  rotate: false
+  xy: 376, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/triple_sword_new
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/triple_sword_old
+  rotate: false
+  xy: 410, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/trishula
+  rotate: false
+  xy: 444, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/war_axe_new
+  rotate: false
+  xy: 478, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/war_axe_old
+  rotate: false
+  xy: 410, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/whip
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/whip_new
+  rotate: false
+  xy: 444, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/whip_old
+  rotate: false
+  xy: 478, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player17.png
+size: 2048,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hand_right/artefact/arc_blade
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/arga_new
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/arga_old
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/asmodeus_new
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/asmodeus_old
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/axe_of_woe
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/axe_trog
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/bloodbane_new
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/bloodbane_old
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/blowgun_assassin
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/botono
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/chilly_death_new
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/chilly_death_old
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/crossbow_fire
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/crystal_spear_new
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/crystal_spear_old
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/cutlass
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/dire_lajatang
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/dispater_new
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/dispater_old
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/doom_knight_new
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/doom_knight_old
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/elemental_staff
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/eos
+  rotate: false
+  xy: 784, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/finisher
+  rotate: false
+  xy: 818, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/firestarter
+  rotate: false
+  xy: 852, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/flaming_death_new
+  rotate: false
+  xy: 886, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/flaming_death_old
+  rotate: false
+  xy: 920, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/glaive_of_prune_new
+  rotate: false
+  xy: 954, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/glaive_of_prune_old
+  rotate: false
+  xy: 988, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/glaive_of_the_guard_new
+  rotate: false
+  xy: 1022, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/glaive_of_the_guard_old
+  rotate: false
+  xy: 1056, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/gyre
+  rotate: false
+  xy: 1090, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/jihad
+  rotate: false
+  xy: 1124, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/knife_of_accuracy
+  rotate: false
+  xy: 1158, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/krishna
+  rotate: false
+  xy: 1192, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/leech
+  rotate: false
+  xy: 1226, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/mace_of_brilliance
+  rotate: false
+  xy: 1260, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/mace_of_variability
+  rotate: false
+  xy: 1294, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/majin
+  rotate: false
+  xy: 1328, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/morg
+  rotate: false
+  xy: 1362, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/olgreb
+  rotate: false
+  xy: 1396, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/order
+  rotate: false
+  xy: 1430, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/plutonium_sword_new
+  rotate: false
+  xy: 1464, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/plutonium_sword_old
+  rotate: false
+  xy: 1498, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/punk
+  rotate: false
+  xy: 1532, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/serpent_scourge
+  rotate: false
+  xy: 1566, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/shillelagh
+  rotate: false
+  xy: 1600, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/singing_sword
+  rotate: false
+  xy: 1634, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/sniper
+  rotate: false
+  xy: 1668, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/spriggans_knife_new
+  rotate: false
+  xy: 1702, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/spriggans_knife_old
+  rotate: false
+  xy: 1736, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/sword_of_power_new
+  rotate: false
+  xy: 1770, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/sword_of_power_old
+  rotate: false
+  xy: 1804, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/trident_octopus_king
+  rotate: false
+  xy: 1838, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/undeadhunter
+  rotate: false
+  xy: 1872, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/vampires_tooth
+  rotate: false
+  xy: 1906, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/wucad_mu
+  rotate: false
+  xy: 1940, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/wyrmbane
+  rotate: false
+  xy: 1974, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/artefact/zonguldrok
+  rotate: false
+  xy: 2008, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player18.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hand_right/misc/bladehands_fe
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/bladehands_new
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/bladehands_old
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/bladehands_op
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/bone_lantern
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/bottle
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/box
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/crystal
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/deck
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/disc
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fan
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_blue
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_cyan
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_dark
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_green
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_red
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_white
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/fire_white
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+hand_right/misc/head
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/horn
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/lantern
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/light_blue
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/light_red
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/light_yellow
+  rotate: false
+  xy: 784, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/orb
+  rotate: false
+  xy: 818, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/skull
+  rotate: false
+  xy: 852, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/spark
+  rotate: false
+  xy: 886, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hand_right/misc/stone
+  rotate: false
+  xy: 920, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player19.png
+size: 256,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+head/art_dragonhelm
+  rotate: false
+  xy: 2, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/band_blue
+  rotate: false
+  xy: 2, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/band_magenta
+  rotate: false
+  xy: 36, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/band_red
+  rotate: false
+  xy: 2, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/band_white
+  rotate: false
+  xy: 36, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/band_yellow
+  rotate: false
+  xy: 70, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/bandana_ybrown
+  rotate: false
+  xy: 2, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/bear
+  rotate: false
+  xy: 36, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/black_horn
+  rotate: false
+  xy: 70, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/black_horn
+  rotate: false
+  xy: 104, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/blue_horn_gold
+  rotate: false
+  xy: 2, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/brown_gold
+  rotate: false
+  xy: 36, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/cap_black
+  rotate: false
+  xy: 70, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/cap_blue
+  rotate: false
+  xy: 104, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/chain
+  rotate: false
+  xy: 138, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/cheek_red
+  rotate: false
+  xy: 2, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/clown
+  rotate: false
+  xy: 36, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/clown
+  rotate: false
+  xy: 70, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/cone_blue
+  rotate: false
+  xy: 104, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/cone_red
+  rotate: false
+  xy: 138, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/crown_gold
+  rotate: false
+  xy: 172, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/crown_gold
+  rotate: false
+  xy: 2, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/crown_gold
+  rotate: false
+  xy: 36, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+head/dyrovepreva_new
+  rotate: false
+  xy: 70, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/dyrovepreva_old
+  rotate: false
+  xy: 104, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/eternal_torment
+  rotate: false
+  xy: 138, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/etheric_cage
+  rotate: false
+  xy: 172, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/feather_blue
+  rotate: false
+  xy: 206, 478
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/feather_green
+  rotate: false
+  xy: 2, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/feather_red
+  rotate: false
+  xy: 36, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/feather_white
+  rotate: false
+  xy: 70, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/feather_yellow
+  rotate: false
+  xy: 104, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/fhelm_gray
+  rotate: false
+  xy: 138, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+head/fhelm_horn
+  rotate: false
+  xy: 172, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/fhelm_horn_yellow
+  rotate: false
+  xy: 206, 444
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/full_black
+  rotate: false
+  xy: 2, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/full_gold
+  rotate: false
+  xy: 36, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/gandalf
+  rotate: false
+  xy: 70, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hat_black
+  rotate: false
+  xy: 104, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/healer
+  rotate: false
+  xy: 138, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/helm_gimli
+  rotate: false
+  xy: 172, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/helm_green
+  rotate: false
+  xy: 206, 410
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/helm_plume
+  rotate: false
+  xy: 2, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/helm_red
+  rotate: false
+  xy: 36, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_black
+  rotate: false
+  xy: 70, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/hood_cyan
+  rotate: false
+  xy: 104, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_gray
+  rotate: false
+  xy: 138, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_green
+  rotate: false
+  xy: 172, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_green
+  rotate: false
+  xy: 206, 376
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/hood_orange
+  rotate: false
+  xy: 2, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_red
+  rotate: false
+  xy: 36, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_red
+  rotate: false
+  xy: 70, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/hood_white
+  rotate: false
+  xy: 104, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/hood_white
+  rotate: false
+  xy: 138, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/hood_ybrown
+  rotate: false
+  xy: 172, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/horn_evil
+  rotate: false
+  xy: 206, 342
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/horn_gray
+  rotate: false
+  xy: 2, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/horned
+  rotate: false
+  xy: 36, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/horns
+  rotate: false
+  xy: 70, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/horns
+  rotate: false
+  xy: 104, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/horns
+  rotate: false
+  xy: 138, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+head/iron
+  rotate: false
+  xy: 172, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/iron
+  rotate: false
+  xy: 206, 308
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/iron
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+head/iron_red
+  rotate: false
+  xy: 36, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/isildur
+  rotate: false
+  xy: 70, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/mummy
+  rotate: false
+  xy: 104, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/ninja_black
+  rotate: false
+  xy: 138, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/straw
+  rotate: false
+  xy: 172, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/taiso_blue
+  rotate: false
+  xy: 206, 274
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/taiso_magenta
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/taiso_red
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/taiso_white
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/taiso_yellow
+  rotate: false
+  xy: 70, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/turban_brown
+  rotate: false
+  xy: 104, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/turban_purple
+  rotate: false
+  xy: 138, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/turban_white
+  rotate: false
+  xy: 172, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/viking_brown
+  rotate: false
+  xy: 206, 240
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+head/viking_brown
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+head/viking_gold
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_blackgold
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_blackred
+  rotate: false
+  xy: 104, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_blue
+  rotate: false
+  xy: 138, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_bluegreen
+  rotate: false
+  xy: 172, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_brown
+  rotate: false
+  xy: 206, 206
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_darkgreen
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_lightgreen
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_purple
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_red
+  rotate: false
+  xy: 138, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/wizard_white
+  rotate: false
+  xy: 172, 138
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+head/yellow_wing
+  rotate: false
+  xy: 206, 172
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player20.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+legs/belt_gray
+  rotate: false
+  xy: 2, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/belt_redbrown
+  rotate: false
+  xy: 2, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/bikini_red
+  rotate: false
+  xy: 36, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/chunli
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/garter
+  rotate: false
+  xy: 36, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/leg_armor
+  rotate: false
+  xy: 70, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+legs/leg_armor
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+legs/leg_armor
+  rotate: false
+  xy: 70, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+legs/leg_armor
+  rotate: false
+  xy: 104, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+legs/leg_armor
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+legs/leg_armor
+  rotate: false
+  xy: 104, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+legs/loincloth_red
+  rotate: false
+  xy: 138, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/long_red
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/metal_gray
+  rotate: false
+  xy: 138, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/metal_green
+  rotate: false
+  xy: 172, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 16
+legs/pants_black
+  rotate: false
+  xy: 172, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_blue
+  rotate: false
+  xy: 206, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_brown
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_darkgreen
+  rotate: false
+  xy: 206, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_l_white
+  rotate: false
+  xy: 240, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_orange
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_red
+  rotate: false
+  xy: 240, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_short_brown
+  rotate: false
+  xy: 274, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_short_brown
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+legs/pants_short_darkbrown
+  rotate: false
+  xy: 274, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pants_short_gray
+  rotate: false
+  xy: 308, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/pj
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/skirt_blue
+  rotate: false
+  xy: 308, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/skirt_green
+  rotate: false
+  xy: 342, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/skirt_red
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/skirt_white
+  rotate: false
+  xy: 342, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+legs/skirt_white
+  rotate: false
+  xy: 376, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+legs/trouser_green
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+player21.png
+size: 256,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+mutations/cat
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 6
+mutations/cat
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 7
+mutations/cat
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 8
+mutations/cat
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 9
+mutations/cat
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 10
+mutations/octopode
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+
+player22.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+transform/bat_form
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_black
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_green
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_grey
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_mottled
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_pale
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_purple
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_red
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_white
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/dragon_form_yellow
+  rotate: false
+  xy: 342, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/ice_form
+  rotate: false
+  xy: 376, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/lich_form
+  rotate: false
+  xy: 410, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/lich_form_octopode
+  rotate: false
+  xy: 444, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/mushroom_form
+  rotate: false
+  xy: 478, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/pig_form_new
+  rotate: false
+  xy: 512, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/pig_form_old
+  rotate: false
+  xy: 546, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/shadow_form
+  rotate: false
+  xy: 580, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/statue_form_centaur
+  rotate: false
+  xy: 614, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/statue_form_felid
+  rotate: false
+  xy: 648, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/statue_form_humanoid
+  rotate: false
+  xy: 682, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/statue_form_naga
+  rotate: false
+  xy: 716, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transform/tree_form
+  rotate: false
+  xy: 750, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

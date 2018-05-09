@@ -1,0 +1,104 @@
+{
+  "modName" : null,
+  "author" : null,
+  "description" : null,
+  "url" : null,
+  "battleSkills" : [ {
+    "id" : "melee"
+  }, {
+    "id" : "sword"
+  }, {
+    "id" : "throwing"
+  } ],
+  "magicSkills" : [ {
+    "id" : "air"
+  }, {
+    "id" : "earth"
+  }, {
+    "id" : "water"
+  }, {
+    "id" : "fire"
+  }, {
+    "id" : "lighting"
+  } ],
+  "commonSkills" : [ ],
+  "abilityList" : [ {
+    "id" : "melee_hit",
+    "cost" : {
+      "percent" : null,
+      "cost" : 10.0,
+      "minimal" : null
+    },
+    "name" : "melee hit",
+    "img" : null,
+    "effect" : null,
+    "description" : null,
+    "minLength" : null,
+    "maxLength" : null,
+    "specRules" : null,
+    "requirementIds" : {
+      "melee" : 1.0
+    },
+    "checks" : [ {
+      "attackId" : "melee",
+      "defendId" : "melee",
+      "modificator" : 100.0
+    } ],
+    "damages" : [ {
+      "damageType" : "HIT",
+      "damage" : 50.0
+    } ]
+  }, {
+    "id" : "melee_uppercut",
+    "cost" : {
+      "percent" : 1.0,
+      "cost" : null,
+      "minimal" : 20.0
+    },
+    "name" : "uppercut",
+    "img" : null,
+    "effect" : null,
+    "description" : null,
+    "minLength" : null,
+    "maxLength" : null,
+    "specRules" : null,
+    "requirementIds" : {
+      "melee" : 2.0
+    },
+    "checks" : [ {
+      "attackId" : "melee",
+      "defendId" : "melee",
+      "modificator" : 100.0
+    } ],
+    "damages" : [ {
+      "damageType" : "STUN",
+      "damage" : 100.0
+    } ]
+  }, {
+    "id" : "fire_bullet",
+    "cost" : {
+      "percent" : null,
+      "cost" : 20.0,
+      "minimal" : null
+    },
+    "name" : "fire bullet",
+    "img" : null,
+    "effect" : null,
+    "description" : null,
+    "minLength" : null,
+    "maxLength" : null,
+    "specRules" : null,
+    "requirementIds" : {
+      "fire" : 1.0
+    },
+    "checks" : [ {
+      "attackId" : "statControl",
+      "defendId" : "statAgility",
+      "modificator" : 100.0
+    } ],
+    "damages" : [ {
+      "damageType" : "HIT",
+      "damage" : 50.0
+    } ]
+  } ]
+}
