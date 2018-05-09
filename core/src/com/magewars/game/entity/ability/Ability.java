@@ -3,7 +3,6 @@ package com.magewars.game.entity.ability;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.magewars.game.entity.SpecRule;
 import com.magewars.game.entity.stats.Skill;
-import com.magewars.game.entity.stats.stat.Strength;
 
 import java.util.ArrayList;
 import java.util.HashMap;

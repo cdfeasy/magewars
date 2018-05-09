@@ -24,15 +24,15 @@ public class UnitAbilityWrapper {
         for (AbilityDamage dmg : ability.getDamages()) {
             Double dmgValue = dmg.getDamage();
             for (Map.Entry<Skill, Double> entry : dmg.getModificators().entrySet()) {
-                if (unit.getAllStat().get(entry.getKey()) != null) {
-                    dmgValue += dmg.getDamage() * (entry.getValue() * unit.getAllStat().get(entry.getKey()));
+                if (unit.getSkills().get(entry.getKey()) != null) {
+                    dmgValue += dmg.getDamage() * (entry.getValue() * unit.getSkills().get(entry.getKey()));
                 }
             }
             AbilityDamage fDamage = new AbilityDamage(null, dmg.getDamageType(), dmgValue);
             finalDamage.add(fDamage);
         }
         if (ability.getCost().getPercent() != null) {
-            cost = unit.getEnergy().getValue() * ability.getCost().getPercent() / 100;
+            cost = unit.getEnergy() * ability.getCost().getPercent() / 100;
         } else {
             cost = ability.getCost().getCost();
         }

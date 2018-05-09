@@ -11,7 +11,7 @@ public class Battle {
     public Battle() {
     }
 
-    public Battle(BattleField battleField, com.magewars.game.entity.TeamWrapper attackers, com.magewars.game.entity.TeamWrapper defenders) {
+    public Battle(BattleField battleField, TeamWrapper attackers, TeamWrapper defenders) {
         this.battleField = battleField;
         this.attackers = attackers;
         this.defenders = defenders;
@@ -49,7 +49,7 @@ public class Battle {
             dTactic.process(this, defenders);
             boolean alive = false;
             for (com.magewars.game.entity.UnitWrapper unit : attackers.getTeam().getUnits()) {
-                if (unit.getHp().getValue() > 0) {
+                if (unit.getHp()> 0) {
                     alive = true;
                     break;
                 }
@@ -59,7 +59,7 @@ public class Battle {
             }
             alive = false;
             for (UnitWrapper unit : defenders.getTeam().getUnits()) {
-                if (unit.getHp().getValue() > 0) {
+                if (unit.getHp()> 0) {
                     alive = true;
                     break;
                 }

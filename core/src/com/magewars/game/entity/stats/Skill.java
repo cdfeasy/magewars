@@ -4,22 +4,19 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
-//@JsonTypeInfo(
-//        use = JsonTypeInfo.Id.NAME,
-//        include = JsonTypeInfo.As.PROPERTY,
-//        property = "type")
-//@JsonSubTypes({
-//        @JsonSubTypes.Type(value = BattleSkill.class, name = "battle"),
-//        @JsonSubTypes.Type(value = MagicSkill.class, name = "magic"),
-//        @JsonSubTypes.Type(value = CommonSkill.class, name = "common")
-//})
 public class Skill {
     protected String id;
     protected String name;
     protected String description;
+    protected String category;
 
     public Skill() {
 
+    }
+
+    public Skill(String id, String category) {
+        this.id = id;
+        this.category = category;
     }
 
     public Skill(String id, String name, String description) {
@@ -37,21 +34,25 @@ public class Skill {
     public void setId(String id) {
         this.id = id;
     }
-    @JsonIgnore
     public String getName() {
         return name;
     }
-    @JsonProperty
     public void setName(String name) {
         this.name = name;
     }
-    @JsonIgnore
     public String getDescription() {
         return description;
     }
-    @JsonProperty
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     @Override

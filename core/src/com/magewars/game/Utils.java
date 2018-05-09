@@ -47,14 +47,14 @@ public class Utils {
             for (AbilityCheck check : ability.getAbility().getChecks()) {
                 //чисто оборонительный бросок, например на скорость
                 if (check.getAttack() == null) {
-                    double def = defender.getAllStat().containsKey(check.getDefend()) ?
-                            attacker.getAllStat().get(check.getDefend()) : 0d;
+                    double def = defender.getSkills().containsKey(check.getDefend()) ?
+                            attacker.getSkills().get(check.getDefend()) : 0d;
                     hit -= Math.min(def * check.getModificator(), 50);
                 } else {
-                    double at = attacker.getAllStat().containsKey(check.getAttack()) ?
-                            attacker.getAllStat().get(check.getAttack()) : 0d;
-                    double def = defender.getAllStat().containsKey(check.getDefend()) ?
-                            attacker.getAllStat().get(check.getDefend()) : 0d;
+                    double at = attacker.getSkills().containsKey(check.getAttack()) ?
+                            attacker.getSkills().get(check.getAttack()) : 0d;
+                    double def = defender.getSkills().containsKey(check.getDefend()) ?
+                            attacker.getSkills().get(check.getDefend()) : 0d;
                     if (at == 0) {
                         hit += 0;
                     } else if (def == 0) {

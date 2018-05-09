@@ -1,0 +1,300 @@
+{
+  "unitWrappers" : [ {
+    "unit" : {
+      "name" : "unit1",
+      "id" : "unit1",
+      "agility" : {
+        "value" : 2.31
+      },
+      "hp" : {
+        "value" : 1142.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 2.65
+      },
+      "control" : {
+        "value" : 1.88
+      },
+      "speed" : {
+        "value" : 2.94
+      },
+      "endurance" : {
+        "value" : 1.76
+      },
+      "intelligence" : {
+        "value" : 1.15
+      },
+      "team" : {
+        "name" : "team1",
+        "id" : "team1",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : { },
+      "battleSkillsIds" : {
+        "melee" : 1.0
+      },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "melee_hit" ]
+    },
+    "unitId" : "unit1",
+    "hp" : {
+      "value" : 1142.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  }, {
+    "unit" : {
+      "name" : "unit2",
+      "id" : "unit2",
+      "agility" : {
+        "value" : 1.34
+      },
+      "hp" : {
+        "value" : 1986.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 1.47
+      },
+      "control" : {
+        "value" : 1.2
+      },
+      "speed" : {
+        "value" : 2.73
+      },
+      "endurance" : {
+        "value" : 1.5699999999999998
+      },
+      "intelligence" : {
+        "value" : 1.8399999999999999
+      },
+      "team" : {
+        "name" : "team1",
+        "id" : "team1",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : {
+        "fire" : 1.0
+      },
+      "battleSkillsIds" : { },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "fire_bullet" ]
+    },
+    "unitId" : "unit2",
+    "hp" : {
+      "value" : 1986.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  }, {
+    "unit" : {
+      "name" : "unit3",
+      "id" : "unit3",
+      "agility" : {
+        "value" : 2.74
+      },
+      "hp" : {
+        "value" : 1311.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 2.62
+      },
+      "control" : {
+        "value" : 1.3
+      },
+      "speed" : {
+        "value" : 1.8199999999999998
+      },
+      "endurance" : {
+        "value" : 2.6100000000000003
+      },
+      "intelligence" : {
+        "value" : 1.31
+      },
+      "team" : {
+        "name" : "team1",
+        "id" : "team1",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : { },
+      "battleSkillsIds" : {
+        "melee" : 1.0
+      },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "melee_hit" ]
+    },
+    "unitId" : "unit3",
+    "hp" : {
+      "value" : 1311.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  }, {
+    "unit" : {
+      "name" : "unit4",
+      "id" : "unit4",
+      "agility" : {
+        "value" : 2.95
+      },
+      "hp" : {
+        "value" : 1272.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 1.46
+      },
+      "control" : {
+        "value" : 2.45
+      },
+      "speed" : {
+        "value" : 2.69
+      },
+      "endurance" : {
+        "value" : 1.5
+      },
+      "intelligence" : {
+        "value" : 1.74
+      },
+      "team" : {
+        "name" : "team2",
+        "id" : "team2",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : { },
+      "battleSkillsIds" : {
+        "melee" : 1.0
+      },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "melee_hit" ]
+    },
+    "unitId" : "unit4",
+    "hp" : {
+      "value" : 1272.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  }, {
+    "unit" : {
+      "name" : "unit5",
+      "id" : "unit5",
+      "agility" : {
+        "value" : 1.31
+      },
+      "hp" : {
+        "value" : 1156.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 1.4
+      },
+      "control" : {
+        "value" : 2.55
+      },
+      "speed" : {
+        "value" : 2.02
+      },
+      "endurance" : {
+        "value" : 2.92
+      },
+      "intelligence" : {
+        "value" : 1.8
+      },
+      "team" : {
+        "name" : "team2",
+        "id" : "team2",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : {
+        "fire" : 1.0
+      },
+      "battleSkillsIds" : { },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "fire_bullet" ]
+    },
+    "unitId" : "unit5",
+    "hp" : {
+      "value" : 1156.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  }, {
+    "unit" : {
+      "name" : "unit6",
+      "id" : "unit6",
+      "agility" : {
+        "value" : 1.55
+      },
+      "hp" : {
+        "value" : 1533.0
+      },
+      "energy" : {
+        "value" : 1000.0
+      },
+      "strength" : {
+        "value" : 2.67
+      },
+      "control" : {
+        "value" : 2.56
+      },
+      "speed" : {
+        "value" : 1.98
+      },
+      "endurance" : {
+        "value" : 1.97
+      },
+      "intelligence" : {
+        "value" : 1.19
+      },
+      "team" : {
+        "name" : "team2",
+        "id" : "team2",
+        "unitsIds" : null
+      },
+      "magicSkillsIds" : { },
+      "battleSkillsIds" : {
+        "melee" : 1.0
+      },
+      "commonSkillsIds" : { },
+      "abilitiesIds" : [ "melee_hit" ]
+    },
+    "unitId" : "unit6",
+    "hp" : {
+      "value" : 1533.0
+    },
+    "energy" : {
+      "value" : 1000.0
+    }
+  } ],
+  "teamWrappers" : [ {
+    "team" : {
+      "name" : "team1",
+      "id" : "team1",
+      "unitsIds" : null
+    },
+    "tacticId" : null
+  }, {
+    "team" : {
+      "name" : "team2",
+      "id" : "team2",
+      "unitsIds" : null
+    },
+    "tacticId" : null
+  } ]
+}

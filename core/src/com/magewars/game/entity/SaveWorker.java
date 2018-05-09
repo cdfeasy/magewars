@@ -28,7 +28,7 @@ public class SaveWorker {
     public UnitData lodaUserData(String data, ModData modData) throws IOException {
         StringWriter writer = new StringWriter();
         UnitData unitData = mapper.readValue(data, UnitData.class);
-        unitData.postLoad(modData.allAbilities(),modData.allSkills());
+        unitData.postLoad(modData.allAbilities(),modData.getSkillsMap());
         return unitData;
     }
 
