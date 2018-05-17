@@ -53,8 +53,7 @@ public class BattleStage  extends Stage {
         //TiledMapRenderer renderer=new
 
         Container field =new Container<WidgetGroup>();
-        field.setActor(new BattleTileView(gdxGame));
-        field.fill();
+
 
 
 
@@ -68,6 +67,11 @@ public class BattleStage  extends Stage {
        // stageLayout.row();
         stageLayout.row().expand();
         stageLayout.add(field).left();
+        BattleTileView battleField=new BattleTileView(gdxGame,0,100,viewport.getScreenWidth(), viewport.getScreenHeight()-100 );
+        field.setActor(battleField);
+        field.fill();
+
+
         stageLayout.row();
         stageLayout.add(footer).height(100f).expandX();
 
