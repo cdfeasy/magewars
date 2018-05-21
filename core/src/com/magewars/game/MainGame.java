@@ -1,7 +1,6 @@
-package com.magewars.game.entity;
+package com.magewars.game;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.magewars.game.*;
+import com.magewars.game.entity.*;
 import com.magewars.game.entity.ability.Ability;
 import com.magewars.game.entity.ability.AbilityCheck;
 import com.magewars.game.entity.ability.AbilityCost;
@@ -10,88 +9,20 @@ import com.magewars.game.entity.stats.Skill;
 import com.magewars.game.tactics.FrontalAssault;
 
 import java.io.IOException;
-import java.io.StringWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
-public class ModData {
-    private String modName;
-    private String author;
-    private String description;
-    private String url;
+public class MainGame {
+    private Battle battle;
+    private ModData modData;
+    private UnitData unitData;
 
-    private List<Skill> skills;
-    private List<Ability> abilityList;
-
-    public String getModName() {
-        return modName;
-    }
-
-    public void setModName(String modName) {
-        this.modName = modName;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public void setSkills(List<Skill> skills) {
-        this.skills = skills;
-    }
-
-    public List<Skill> getSkills() {
-        return skills;
-    }
-    public Map<String, Skill> getSkillsMap() {
-        Map<String,Skill> skillMap=new HashMap<String, Skill>();
-        for(Skill skill:skills){
-            skillMap.put(skill.getId(),skill);
-        }
-        return skillMap;
-    }
-
-
-    public List<Ability> getAbilityList() {
-        return abilityList;
-    }
-
-    public void setAbilityList(List<Ability> abilityList) {
-        this.abilityList = abilityList;
-    }
-
-    public Map<String,Ability> allAbilities(){
-        Map<String,Ability> allSkills=new HashMap<String, Ability>();
-        for(Ability ability:abilityList){
-            allSkills.put(ability.getId(),ability);
-        }
-        return allSkills;
-
-    }
-
-    public static void main(String[] args) throws IOException {
+    public MainGame() throws IOException {
         Skill agility = new Skill("agility","stat");
         Skill control = new Skill("control","stat");
         Skill speed =new Skill("speed","stat");
-        ModData modData = new ModData();
+        modData = new ModData();
         Skill melee = new Skill();
         melee.setId("melee");
         melee.setDescription("melee");
@@ -164,8 +95,8 @@ public class ModData {
         //   SimpleModule  module=new SimpleModule();
         //    module.addSerializer(Skill.class,new BattleSkillSerializer());
         // mapper.registerModule(module);
-   //     StringWriter writer = new StringWriter();
-    //    mapper.writerWithDefaultPrettyPrinter().writeValue(writer, modData);
+        //     StringWriter writer = new StringWriter();
+        //    mapper.writerWithDefaultPrettyPrinter().writeValue(writer, modData);
         System.out.println(worker.saveModData(modData));
 
         Team team1 = new Team("team1");
@@ -200,10 +131,10 @@ public class ModData {
         BattleField battleField=new BattleField(6);
         TeamWrapper teamWrapper1 = new TeamWrapper(team1, battleField.getTiles().get(0));
         teamWrapper1.setTactic(new FrontalAssault());
-        TeamWrapper teamWrapper2 = new TeamWrapper(team2, battleField.getTiles().get(9));
+        TeamWrapper teamWrapper2 = new TeamWrapper(team2, battleField.getTiles().get(5));
         teamWrapper2.setTactic(new FrontalAssault());
-        Battle battle=new Battle(battleField,teamWrapper1,teamWrapper2);
-     //   battle.processBattle();
+        battle=new Battle(battleField,teamWrapper1,teamWrapper2);
+        //   battle.processBattle();
 
         UnitData unitData=new UnitData();
         List<UnitWrapper> wrappers=new ArrayList<UnitWrapper>();
@@ -224,10 +155,20 @@ public class ModData {
         String str = worker.saveUserData(unitData);
         System.out.println(str);
 
-        UnitData data1=worker.lodaUserData(str, modData);
-//        System.out.println(str2);
+        unitData=worker.lodaUserData(str, modData);
 
+    }
 
+    public UnitData getUnitData() {
+        return unitData;
+    }
+
+    public Battle getBattle() {
+        return battle;
+    }
+
+    public ModData getModData() {
+        return modData;
     }
 
     private static Unit createUnit(String name) {
@@ -245,5 +186,4 @@ public class ModData {
         unit.setId(name);
         return unit;
     }
-
 }

@@ -20,6 +20,7 @@ public class TeamWrapper {
         this.team = team;
         for(UnitWrapper unit:team.getUnits()){
             unit.setTile(tile);
+            tile.getUnits().add(unit);
         }
     }
 

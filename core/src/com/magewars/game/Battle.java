@@ -5,8 +5,8 @@ import com.magewars.game.entity.UnitWrapper;
 
 public class Battle {
     private BattleField battleField;
-    private com.magewars.game.entity.TeamWrapper attackers;
-    private com.magewars.game.entity.TeamWrapper defenders;
+    private TeamWrapper attackers;
+    private TeamWrapper defenders;
 
     public Battle() {
     }
@@ -43,30 +43,38 @@ public class Battle {
 
     public void processBattle() {
         while (true) {
-            Tactic aTactic = attackers.getTactic();
-            aTactic.process(this, attackers);
-            Tactic dTactic = defenders.getTactic();
-            dTactic.process(this, defenders);
-            boolean alive = false;
-            for (com.magewars.game.entity.UnitWrapper unit : attackers.getTeam().getUnits()) {
-                if (unit.getHp()> 0) {
-                    alive = true;
-                    break;
-                }
-            }
-            if(!alive){
-                break;
-            }
-            alive = false;
-            for (UnitWrapper unit : defenders.getTeam().getUnits()) {
-                if (unit.getHp()> 0) {
-                    alive = true;
-                    break;
-                }
-            }
-            if(!alive){
+            boolean end = processTurn();
+            if (end) {
                 break;
             }
         }
+    }
+
+    public boolean processTurn() {
+        Tactic aTactic = attackers.getTactic();
+        aTactic.process(this, attackers);
+        Tactic dTactic = defenders.getTactic();
+        dTactic.process(this, defenders);
+        boolean alive = false;
+        for (UnitWrapper unit : attackers.getTeam().getUnits()) {
+            if (unit.getHp() > 0) {
+                alive = true;
+                break;
+            }
+        }
+        if (!alive) {
+            return true;
+        }
+        alive = false;
+        for (UnitWrapper unit : defenders.getTeam().getUnits()) {
+            if (unit.getHp() > 0) {
+                alive = true;
+                break;
+            }
+        }
+        if (!alive) {
+            return true;
+        }
+        return false;
     }
 }

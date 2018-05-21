@@ -8,8 +8,9 @@ import com.badlogic.gdx.scenes.scene2d.ui.WidgetGroup;
 public class BattleFooter extends Table {
     Container<WidgetGroup> centralPanel;
 
-    public BattleFooter(Button button) {
+    public BattleFooter(Button button, Button button2) {
         add(button);
+        add(button2);
 
     }
 }

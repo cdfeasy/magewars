@@ -6,6 +6,7 @@ import com.magewars.game.BattleTile;
 import com.magewars.game.entity.ability.Ability;
 import com.magewars.game.entity.ability.UnitAbilityWrapper;
 import com.magewars.game.entity.stats.Skill;
+import com.magewars.gdx.UnitGraphics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,6 +29,9 @@ public class UnitWrapper {
     private TeamWrapper teamWrapper;
     @JsonIgnore
     private List<UnitAbilityWrapper> processedAbilities;
+    @JsonIgnore
+    private UnitGraphics unitGraphics;
+
 
 
     public UnitWrapper() {
@@ -158,5 +162,11 @@ public class UnitWrapper {
         this.unitId = unitId;
     }
 
+    public UnitGraphics getUnitGraphics() {
+        return unitGraphics;
+    }
 
+    public void setUnitGraphics(UnitGraphics unitGraphics) {
+        this.unitGraphics = unitGraphics;
+    }
 }
