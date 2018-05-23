@@ -11,7 +11,6 @@ public class UnitGraphics {
     private boolean flipX,flipY;
     private float originX=0,originY=0;
     private float rotate;
-    private float time=0;
     private GdxGame gdxGame;
 
     public UnitGraphics() {
@@ -19,17 +18,21 @@ public class UnitGraphics {
 
     public UnitGraphics(GdxGame gdxGame) {
         this.gdxGame = gdxGame;
-        image=(TextureRegion) gdxGame.getKnightStay().getKeyFrame(time,true);
+        image=(TextureRegion) gdxGame.getManager().getKnightStay().getKeyFrame(0,true);
     }
 
-    public void stay(float delta){
-        time+=delta;
-        image=(TextureRegion) gdxGame.getKnightStay().getKeyFrame(time,true);
+    public void stay(float time){
+        image=(TextureRegion) gdxGame.getManager().getKnightStay().getKeyFrame(time,true);
     }
 
-    public void run(float delta){
-        time+=delta;
-        image=(TextureRegion) gdxGame.getKnightRun().getKeyFrame(time,true);
+    public void run(float time){
+        image=(TextureRegion) gdxGame.getManager().getKnightRun().getKeyFrame(time,true);
+    }
+    public void hit(float time){
+        image=(TextureRegion) gdxGame.getManager().getKnightHit().getKeyFrame(time,true);
+    }
+    public void die(float time){
+        image=(TextureRegion) gdxGame.getManager().getKnightDead().getKeyFrame(time,false);
     }
 
     public TextureRegion getImage() {
