@@ -153,7 +153,7 @@ public class BattleTileView extends Widget {
         logger.info("arrow from  {} {}  to {} {}", fromX,fromY,toX,toY);
 
 
-        EffectAnimation effectAnimation=new EffectAnimation(gdxGame.getManager().getArrow(),fromX,fromY,toX,toY,stateTime,0.32f);
+        EffectAnimation effectAnimation=new EffectAnimation(gdxGame.getManager().getArrow1(),fromX,fromY,toX,toY,stateTime,3f);
         effects.add(effectAnimation);
     }
     public void showEffects(Batch batch){

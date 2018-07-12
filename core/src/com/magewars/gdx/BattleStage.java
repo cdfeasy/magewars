@@ -62,7 +62,7 @@ public class BattleStage extends Stage {
                 logger.info("Pressed Button2");
               //  ref.get().getBattle().processTurn();
             //    battleField.get().
-                battleField.get().refreshTime(Gdx.graphics.getDeltaTime());
+             //   battleField.get().refreshTime(Gdx.graphics.getDeltaTime());
                 battleField.get().addEffect(ref.get().getBattle().getAttackers().getTeam().getUnits().get(0),ref.get().getBattle().getDefenders().getTeam().getUnits().get(0));
                 battleField.get().refreshUnits();
                 return true;

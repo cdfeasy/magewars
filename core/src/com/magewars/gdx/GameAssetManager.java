@@ -21,6 +21,7 @@ public class GameAssetManager {
     Animation knightDead;
 
     Animation arrow;
+    Animation arrow1;
     private AssetManager manager=new AssetManager();
     private TextureRegion getScaled(String name){
         Pixmap pixmap512 = new Pixmap(Gdx.files.internal(name));
@@ -67,7 +68,12 @@ public class GameAssetManager {
         effectAtlas = new Skin(manager.get("effect-atlas/effect.atlas",TextureAtlas.class));
 
         Array<TextureRegion> arrowReg = effectAtlas.getRegions("arrow");
+        Array<TextureRegion> arrayReg1=new Array<>(3);
+        arrayReg1.add(arrowReg.get(1));
+        arrayReg1.add(arrowReg.get(2));
+        arrayReg1.add(arrowReg.get(3));
         arrow=new Animation<>(0.04f, arrowReg);
+        arrow1=new Animation<>(1f, arrayReg1);
     }
 
     public Animation getKnightRun() {
@@ -100,5 +106,9 @@ public class GameAssetManager {
 
     public Animation getArrow() {
         return arrow;
+    }
+
+    public Animation getArrow1() {
+        return arrow1;
     }
 }
