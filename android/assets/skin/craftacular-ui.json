@@ -47,6 +47,11 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
 		over: button-hover
 		disabled: button-disabled
 	}
+	small: {
+		up: button-small
+		over: button-small-hover
+		disabled: button-small-disabled
+	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
 	default: {
@@ -61,6 +66,12 @@ com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
 		up: button
 		over: button-hover
 		disabled: button-disabled
+	}
+	small: {
+		font: font
+		up: button-small
+		over: button-small-hover
+		disabled: button-small-disabled
 	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
@@ -134,6 +145,12 @@ com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 		up: button
 		over: button-hover
 		disabled: button-disabled
+	}
+	small: {
+		font: font
+		up: button-small
+		over: button-small-hover
+		disabled: button-small-disabled
 	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {

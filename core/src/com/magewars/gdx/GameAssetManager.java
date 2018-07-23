@@ -69,11 +69,11 @@ public class GameAssetManager {
 
         Array<TextureRegion> arrowReg = effectAtlas.getRegions("arrow");
         Array<TextureRegion> arrayReg1=new Array<>(3);
+        arrayReg1.add(arrowReg.get(3));
         arrayReg1.add(arrowReg.get(1));
         arrayReg1.add(arrowReg.get(2));
-        arrayReg1.add(arrowReg.get(3));
         arrow=new Animation<>(0.04f, arrowReg);
-        arrow1=new Animation<>(1f, arrayReg1);
+        arrow1=new Animation<>(1f, arrayReg1, Animation.PlayMode.NORMAL);
     }
 
     public Animation getKnightRun() {

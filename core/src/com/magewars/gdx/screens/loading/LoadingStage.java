@@ -1,4 +1,4 @@
-package com.magewars.gdx;
+package com.magewars.gdx.screens.loading;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.*;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.utils.Scaling;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.magewars.gdx.GdxGame;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

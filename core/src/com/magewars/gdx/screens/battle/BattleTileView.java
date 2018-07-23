@@ -1,4 +1,4 @@
-package com.magewars.gdx;
+package com.magewars.gdx.screens.battle;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Animation;
@@ -13,17 +13,21 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.magewars.game.BattleField;
 import com.magewars.game.entity.UnitWrapper;
+import com.magewars.gdx.GdxGame;
+import com.magewars.gdx.UnitGraphics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class BattleTileView extends Widget {
     private static class Target {
         float x, y, originX, originY, start;
+
         public Target(float x, float y, float originX, float originY, float start) {
             this.x = x;
             this.y = y;
@@ -32,9 +36,11 @@ public class BattleTileView extends Widget {
             this.start = start;
         }
     }
+
     private static class EffectAnimation {
         Animation animation;
         float x, y, originX, originY, start, time;
+
         public EffectAnimation(float x, float y, float originX, float originY, float start) {
             this.x = x;
             this.y = y;
@@ -62,17 +68,14 @@ public class BattleTileView extends Widget {
     private GdxGame gdxGame;
     private Interpolation inter = Interpolation.linear;
     private HashMap<UnitWrapper, Target> targets = new HashMap<>();
-    private ArrayList<EffectAnimation> effects=new ArrayList<>();
-    private float offsetX, offsetY;
+    private ConcurrentLinkedQueue<EffectAnimation> effects = new ConcurrentLinkedQueue<>();
     private float stateTime;
 
 
-    public BattleTileView(GdxGame gdxGame, float x, float y, float width, float height) {
+    public BattleTileView(GdxGame gdxGame, float width, float height) {
         logger.info("{}", inter.apply(0f, 100f, 0.1f));
 
         this.gdxGame = gdxGame;
-        offsetX = x;
-        offsetY = y;
         setHeight(height);
         setWidth(width);
         setFillParent(true);
@@ -136,39 +139,41 @@ public class BattleTileView extends Widget {
                 float targetY = getHeight() / entry.getTile().getUnits().size() * entry.getTile().getUnits().indexOf(entry) + 50 - entry.getUnitGraphics().getImage().getRegionHeight() / 2;
                 if (!MathUtils.isEqual(targetX, entry.getUnitGraphics().getX()) || !MathUtils.isEqual(targetY, entry.getUnitGraphics().getY())) {
                     targets.put(entry, new Target(targetX, targetY, entry.getUnitGraphics().getX(), entry.getUnitGraphics().getY(), stateTime));
-                    logger.info("target for {} set to {} {}", entry.getUnit().getName(), targetX, targetY);
+                 //   logger.info("target for {} set to {} {}", entry.getUnit().getName(), targetX, targetY);
                 }
             }
         }
     }
-    public void refreshTime(float time){
+
+    public void refreshTime(float time) {
         stateTime += time;
     }
 
     public void addEffect(UnitWrapper from, UnitWrapper to) {
-        float fromX = from.getUnitGraphics().getX()+from.getUnitGraphics().getImage().getRegionWidth() / 2;
-        float fromY = from.getUnitGraphics().getY()+from.getUnitGraphics().getImage().getRegionHeight() / 2;
-        float toX = to.getUnitGraphics().getX()+to.getUnitGraphics().getImage().getRegionWidth() / 2;
-        float toY = to.getUnitGraphics().getY()+to.getUnitGraphics().getImage().getRegionHeight() / 2;
-        logger.info("arrow from  {} {}  to {} {}", fromX,fromY,toX,toY);
+        float fromX = from.getUnitGraphics().getX() + from.getUnitGraphics().getImage().getRegionWidth() / 2;
+        float fromY = from.getUnitGraphics().getY() + from.getUnitGraphics().getImage().getRegionHeight() / 2;
+        float toX = to.getUnitGraphics().getX() + to.getUnitGraphics().getImage().getRegionWidth() / 2;
+        float toY = to.getUnitGraphics().getY() + to.getUnitGraphics().getImage().getRegionHeight() / 2;
+        logger.info("arrow from  {} {}  to {} {} {}", fromX, fromY, toX, toY,stateTime);
 
 
-        EffectAnimation effectAnimation=new EffectAnimation(gdxGame.getManager().getArrow1(),fromX,fromY,toX,toY,stateTime,3f);
+        EffectAnimation effectAnimation = new EffectAnimation(gdxGame.getManager().getArrow1(), fromX, fromY, toX, toY, stateTime, 3f);
         effects.add(effectAnimation);
     }
-    public void showEffects(Batch batch){
-        ArrayList<EffectAnimation> toDel=new ArrayList<>();
-        for(EffectAnimation effect:effects){
-            float x = inter.apply(effect.originX, effect.x, (stateTime - effect.start)/effect.time);
-            float y = inter.apply(effect.originY, effect.y, (stateTime - effect.start)/effect.time);
-            TextureRegion keyFrame = (TextureRegion) effect.animation.getKeyFrame(stateTime, true);
-            batch.draw(keyFrame, x+offsetX, y+offsetY, 0, 0, keyFrame.getRegionWidth(), keyFrame.getRegionHeight(), 1f, 1f, 0f);
-            if(effect.start+effect.time<stateTime){
+
+    public void showEffects(Batch batch) {
+        ArrayList<EffectAnimation> toDel = new ArrayList<>();
+        for (EffectAnimation effect : effects) {
+            float x = inter.apply(effect.originX, effect.x, (stateTime - effect.start) / effect.time);
+            float y = inter.apply(effect.originY, effect.y, (stateTime - effect.start) / effect.time);
+            TextureRegion keyFrame = (TextureRegion) effect.animation.getKeyFrame(stateTime-effect.start, false);
+            batch.draw(keyFrame, x + getX(), y + getY(), 0, 0, keyFrame.getRegionWidth(), keyFrame.getRegionHeight(), 1f, 1f, 0f);
+            if (effect.start + effect.time < stateTime) {
                 toDel.add(effect);
             }
         }
-        for(EffectAnimation effect:toDel){
-            logger.info("arrow deleted  {} {} {}", effect.start,effect.time,stateTime);
+        for (EffectAnimation effect : toDel) {
+            logger.info("arrow deleted  {} {} {}", effect.start, effect.time, stateTime);
             effects.remove(effect);
         }
     }
@@ -228,19 +233,18 @@ public class BattleTileView extends Widget {
         //  player.setX(player.getX()+1);
         float tx = table.getX(), ty = table.getY();
         refreshTime(Gdx.graphics.getDeltaTime());
-        table.setPosition(tx + offsetX, ty + offsetY);
+        table.setPosition(tx + getX(), ty + getY());
         table.draw(batch, parentAlpha);
         table.setPosition(tx, ty);
         showEffects(batch);
         refresh();
 
 
-
         for (UnitWrapper player : players) {
             UnitGraphics gr = player.getUnitGraphics();
             gr.getImage().flip(gr.getImage().isFlipX(), gr.getImage().isFlipY());
             float ix = gr.getX(), iy = gr.getY();
-            gr.setPosition(ix + offsetX, iy + offsetY);
+            gr.setPosition(ix + getX(), iy + getY());
             batch.draw(gr.getImage(), gr.getX(), gr.getY(), gr.getOriginX(), gr.getOriginY(), gr.getImage().getRegionWidth(), gr.getImage().getRegionHeight(), 1f, 1f, gr.getRotate());
             gr.setPosition(ix, iy);
         }
