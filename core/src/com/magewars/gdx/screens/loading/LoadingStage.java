@@ -49,7 +49,7 @@ public class LoadingStage extends Stage {
             @Override
             public boolean touchDown (InputEvent event, float x, float y, int pointer, int button) {
                 logger.info("Pressed Button");
-                gdxGame.gotoBattle();
+                gdxGame.gotoGlobal();
             //    gdxGame.render();
 
                 return true;

@@ -3,12 +3,14 @@ package com.magewars.gdx;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.Game;
 import com.magewars.gdx.screens.battle.BattleScreen;
+import com.magewars.gdx.screens.global.GlobalScreen;
 import com.magewars.gdx.screens.loading.LoadingScreen;
 
 public class GdxGame extends Game {
     FitViewport viewport;
     com.magewars.gdx.screens.loading.LoadingScreen loadingScreen;
     com.magewars.gdx.screens.battle.BattleScreen battleScreen;
+    GlobalScreen globalScreen;
     GameAssetManager manager;
 
 
@@ -19,6 +21,7 @@ public class GdxGame extends Game {
         manager=new GameAssetManager();
         loadingScreen = new LoadingScreen(viewport, this);
         battleScreen = new BattleScreen(viewport, this);
+        globalScreen=new GlobalScreen(viewport,this);
 
         screen = loadingScreen;
         screen.show();
@@ -26,6 +29,11 @@ public class GdxGame extends Game {
 
     public void gotoBattle() {
         screen = battleScreen;
+        screen.show();
+    }
+
+    public void gotoGlobal() {
+        screen = globalScreen;
         screen.show();
     }
 
