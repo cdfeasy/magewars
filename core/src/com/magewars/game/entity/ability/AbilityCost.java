@@ -40,4 +40,5 @@ public class AbilityCost {
     public void setMinimal(Double minimal) {
         this.minimal = minimal;
     }
+
 }

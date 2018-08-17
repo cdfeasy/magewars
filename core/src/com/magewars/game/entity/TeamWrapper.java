@@ -59,4 +59,12 @@ public class TeamWrapper {
     public void setTacticId(String tacticId) {
         this.tacticId = tacticId;
     }
+
+    public TeamWrapper clone(){
+        TeamWrapper teamWrapper=new TeamWrapper();
+        teamWrapper.setTactic(tactic);
+        teamWrapper.setTacticId(tacticId);
+        teamWrapper.setTeam(team.clone());
+        return teamWrapper;
+    }
 }

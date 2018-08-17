@@ -74,4 +74,5 @@ public class AbilityCheck {
     public void setDefendId(String defendId) {
         this.defendId = defendId;
     }
+
 }

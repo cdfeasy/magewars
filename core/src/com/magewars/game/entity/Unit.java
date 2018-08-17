@@ -104,4 +104,18 @@ public class Unit {
     public void setEnergy(Double energy) {
         this.energy = energy;
     }
+
+    public Unit clone(){
+        Unit unit=new Unit();
+        unit.setAbilities(new ArrayList<>(abilities));
+        unit.setAbilitiesIds(new ArrayList<>(abilitiesIds));
+        unit.setEnergy(energy);
+        unit.setHp(hp);
+        unit.setId(id);
+        unit.setName(name);
+        unit.setSkills(new HashMap<>(skills));
+        unit.setSkillsIds(new HashMap<>(skillsIds));
+        unit.setTeam(team);
+        return unit;
+    }
 }

@@ -1,5 +1,6 @@
 package com.magewars.game;
 
+import com.magewars.game.battle.Battle;
 import com.magewars.game.entity.*;
 import com.magewars.game.entity.ability.Ability;
 import com.magewars.game.entity.ability.AbilityCheck;
@@ -14,7 +15,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MainGame {
-    private Battle battle;
+    private com.magewars.game.battle.Battle battle;
     private ModData modData;
     private UnitData unitData;
 

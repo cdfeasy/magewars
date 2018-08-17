@@ -1,5 +1,6 @@
 package com.magewars.game;
 
+import com.magewars.game.battle.HitResult;
 import com.magewars.game.entity.UnitWrapper;
 import com.magewars.game.entity.ability.AbilityCheck;
 import com.magewars.game.entity.ability.AbilityDamage;
@@ -39,8 +40,9 @@ public class Utils {
         return max;
     }
 
-    public static HitResult processAbility(com.magewars.game.entity.UnitWrapper attacker, UnitWrapper defender, UnitAbilityWrapper ability) {
+    public static HitResult processAbility(UnitWrapper attacker, UnitWrapper defender, UnitAbilityWrapper ability) {
         HitResult result = new HitResult();
+        result.setAbility(ability.getAbility());
         result.addAttackerCost(ability.getCost());
         for (AbilityDamage damage : ability.getFinalDamage()) {
             double hit = 0d;
@@ -67,7 +69,10 @@ public class Utils {
             if (hit < -80) {
                 hit = -80;
             }
-            hit = random.nextInt(100) + hit;
+            double hitRoll=random.nextInt(100);
+            result.setHitRoll(hitRoll);
+            result.setHitModificator(hit);
+            hit = hitRoll + hit;
             double dmg = 0;
             double evasion = 0d;
             if (hit < 10) {

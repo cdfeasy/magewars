@@ -32,15 +32,9 @@ public class LoadingStage extends Stage {
 
 
         Skin skin = new Skin(Gdx.files.internal("skin/craftacular-ui.json"));
-        Button button = new TextButton("Button1", skin,"default");
-//        button.addListener(new EventListener() {
-//            @Override
-//            public boolean handle(Event event) {
-//                logger.info("{}",event);
-//                return false;
-//            }
-//        });
-        button.addListener(new InputListener(){
+        Button gotoGlobal = new TextButton("global", skin,"default");
+
+        gotoGlobal.addListener(new InputListener(){
             @Override
             public void touchUp (InputEvent event, float x, float y, int pointer, int button) {
 //                outputLabel.setText("Press a Button");
@@ -56,6 +50,24 @@ public class LoadingStage extends Stage {
             }
         });
 
+        Button gotoBattle = new TextButton("battle", skin,"default");
+
+        gotoBattle.addListener(new InputListener(){
+            @Override
+            public void touchUp (InputEvent event, float x, float y, int pointer, int button) {
+//                outputLabel.setText("Press a Button");
+                logger.info("Press a Button");
+            }
+            @Override
+            public boolean touchDown (InputEvent event, float x, float y, int pointer, int button) {
+                logger.info("Pressed Button");
+                gdxGame.gotoBattle();
+                //    gdxGame.render();
+
+                return true;
+            }
+        });
+
         stageLayout=new Table();
         stageLayout.debug();
       //  stageLayout.setScaleX(100f);
@@ -64,11 +76,18 @@ public class LoadingStage extends Stage {
         stageLayout.defaults().expand().space(new Value.Fixed(1f));
 
         stageLayout.row().height(Value.percentHeight(0.6f,stageLayout)).width(Value.percentWidth(1f,stageLayout));
+
         stageLayout.add(backgroundImage).fill().top();
         stageLayout.row();
         stageLayout.add(label).expand().left();
         stageLayout.row();
-        stageLayout.add(button);
+        HorizontalGroup gg=new HorizontalGroup();
+        gg.addActor(gotoGlobal);
+        gg.addActor(gotoBattle);
+        stageLayout.add(gg);
+
+//        stageLayout.add(gotoGlobal);
+//        stageLayout.add(gotoBattle);
 
 
         addActor(stageLayout);

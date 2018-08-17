@@ -48,8 +48,8 @@ public class UnitWrapper {
         if (this.getEnergy() == null)
             this.setEnergy(unit.getEnergy());
         this.setUnitId(unit.getId());
-        this.setSkills(unit.getSkills());
-        processedAbilities = new ArrayList<UnitAbilityWrapper>();
+        this.setSkills(new HashMap<>(unit.getSkills()));
+        processedAbilities = new ArrayList<>();
         for (Ability ability : unit.getAbilities()) {
             processedAbilities.add(new UnitAbilityWrapper(this, ability));
         }
@@ -168,5 +168,14 @@ public class UnitWrapper {
 
     public void setUnitGraphics(UnitGraphics unitGraphics) {
         this.unitGraphics = unitGraphics;
+    }
+
+    public UnitWrapper clone(){
+        Unit clone=unit.clone();
+        UnitWrapper unitWrapper=new UnitWrapper(clone);
+        unitWrapper.setHp(hp);
+        unitWrapper.setEnergy(energy);
+        unitWrapper.preSave();
+        return unitWrapper;
     }
 }

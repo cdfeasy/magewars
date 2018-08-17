@@ -1,6 +1,7 @@
 package com.magewars.game;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.magewars.game.entity.Unit;
 import com.magewars.game.entity.UnitWrapper;
 
 import java.util.ArrayList;
@@ -92,5 +93,19 @@ public class Team {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (id != null ? id.hashCode() : 0);
         return result;
+    }
+
+    public Team clone(){
+        Team team=new Team();
+        team.setId(id);
+        team.setName(name);
+        team.setUnits(new ArrayList<>());
+        for(UnitWrapper unitWrapper:units){
+            UnitWrapper wrapper=unitWrapper.clone();
+            wrapper.getUnit().setTeam(team);
+            team.getUnits().add(wrapper);
+        }
+        team.setUnitsIds(new ArrayList<>(unitsIds));
+        return team;
     }
 }

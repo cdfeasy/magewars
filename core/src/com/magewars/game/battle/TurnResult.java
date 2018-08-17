@@ -1,7 +1,5 @@
-package com.magewars.game.tactics;
+package com.magewars.game.battle;
 
-import com.magewars.game.HitResult;
-import com.magewars.game.entity.Unit;
 import com.magewars.game.entity.UnitWrapper;
 
 public class TurnResult {
@@ -33,4 +31,37 @@ public class TurnResult {
         return new TurnResult(attacker, null, null, UnitAction.WAIT, 0, 0);
     }
 
+    public UnitWrapper getAttacker() {
+        return attacker;
+    }
+
+    public UnitWrapper getDefender() {
+        return defender;
+    }
+
+    public HitResult getResult() {
+        return result;
+    }
+
+    public UnitAction getAction() {
+        return action;
+    }
+
+    public int getMoveFrom() {
+        return moveFrom;
+    }
+
+    public int getMoveTo() {
+        return moveTo;
+    }
+
+    @Override
+    public String toString() {
+        switch (action){
+            case HIT: return "Hit:"+result;
+            case MOVE:return "Move from "+moveFrom+" to "+moveTo;
+            case WAIT:return "Wait";
+        }
+        return "Empty";
+    }
 }

@@ -1,6 +1,9 @@
 package com.magewars.game.tactics;
 
 import com.magewars.game.*;
+import com.magewars.game.battle.Battle;
+import com.magewars.game.battle.HitResult;
+import com.magewars.game.battle.TurnResult;
 import com.magewars.game.entity.TeamWrapper;
 import com.magewars.game.entity.UnitWrapper;
 import com.magewars.game.entity.ability.UnitAbilityWrapper;
@@ -19,7 +22,7 @@ public class FrontalAssault implements Tactic {
     }
 
     @Override
-    public List<TurnResult> process(Battle battle, com.magewars.game.entity.TeamWrapper team) {
+    public List<TurnResult> process(Battle battle, TeamWrapper team) {
         TeamWrapper current = team;
         TeamWrapper opp = battle.getAttackers().equals(team) ? battle.getDefenders() : battle.getAttackers();
         List<TurnResult> results = new ArrayList<TurnResult>();

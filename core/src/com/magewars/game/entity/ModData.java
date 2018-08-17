@@ -1,16 +1,17 @@
 package com.magewars.game.entity;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.magewars.game.*;
+import com.magewars.game.battle.Battle;
+import com.magewars.game.battle.Turn;
 import com.magewars.game.entity.ability.Ability;
 import com.magewars.game.entity.ability.AbilityCheck;
 import com.magewars.game.entity.ability.AbilityCost;
 import com.magewars.game.entity.ability.AbilityDamage;
 import com.magewars.game.entity.stats.Skill;
 import com.magewars.game.tactics.FrontalAssault;
+import com.magewars.game.battle.TurnResult;
 
 import java.io.IOException;
-import java.io.StringWriter;
 import java.util.*;
 
 public class ModData {
@@ -200,7 +201,7 @@ public class ModData {
         BattleField battleField=new BattleField(6);
         TeamWrapper teamWrapper1 = new TeamWrapper(team1, battleField.getTiles().get(0));
         teamWrapper1.setTactic(new FrontalAssault());
-        TeamWrapper teamWrapper2 = new TeamWrapper(team2, battleField.getTiles().get(9));
+        TeamWrapper teamWrapper2 = new TeamWrapper(team2, battleField.getTiles().get(5));
         teamWrapper2.setTactic(new FrontalAssault());
         Battle battle=new Battle(battleField,teamWrapper1,teamWrapper2);
      //   battle.processBattle();
@@ -225,6 +226,20 @@ public class ModData {
         System.out.println(str);
 
         UnitData data1=worker.lodaUserData(str, modData);
+
+        battle.processBattle();
+
+        for(Turn turn:battle.getLog().getTurns()){
+            System.out.println(turn.getTurnNum());
+            for(TurnResult res:turn.getResults()) {
+                if(res.getDefender()==null){
+                    System.out.println(res.getAttacker().getUnitId()+" "+res.toString());
+                }else {
+                    System.out.println(res.getAttacker().getUnitId()+" hit "+res.getDefender().getUnitId()+" "+res.toString());
+                }
+            }
+        }
+
 //        System.out.println(str2);
 
 

@@ -1,5 +1,7 @@
-package com.magewars.game;
+package com.magewars.game.battle;
 
+import com.magewars.game.BattleField;
+import com.magewars.game.Tactic;
 import com.magewars.game.entity.TeamWrapper;
 import com.magewars.game.entity.UnitWrapper;
 
@@ -7,6 +9,7 @@ public class Battle {
     private BattleField battleField;
     private TeamWrapper attackers;
     private TeamWrapper defenders;
+    private BattleLog log;
 
     public Battle() {
     }
@@ -15,6 +18,7 @@ public class Battle {
         this.battleField = battleField;
         this.attackers = attackers;
         this.defenders = defenders;
+        this.log=new BattleLog(this);
     }
 
     public BattleField getBattleField() {
@@ -25,20 +29,28 @@ public class Battle {
         this.battleField = battleField;
     }
 
-    public com.magewars.game.entity.TeamWrapper getAttackers() {
+    public TeamWrapper getAttackers() {
         return attackers;
     }
 
-    public void setAttackers(com.magewars.game.entity.TeamWrapper attackers) {
+    public void setAttackers(TeamWrapper attackers) {
         this.attackers = attackers;
     }
 
-    public com.magewars.game.entity.TeamWrapper getDefenders() {
+    public TeamWrapper getDefenders() {
         return defenders;
     }
 
     public void setDefenders(TeamWrapper defenders) {
         this.defenders = defenders;
+    }
+
+    public BattleLog getLog() {
+        return log;
+    }
+
+    public void setLog(BattleLog log) {
+        this.log = log;
     }
 
     public void processBattle() {
@@ -52,9 +64,9 @@ public class Battle {
 
     public boolean processTurn() {
         Tactic aTactic = attackers.getTactic();
-        aTactic.process(this, attackers);
+        log.addTurn(new Turn(aTactic.process(this, attackers)));
         Tactic dTactic = defenders.getTactic();
-        dTactic.process(this, defenders);
+        log.addTurn(new Turn(dTactic.process(this, defenders)));
         boolean alive = false;
         for (UnitWrapper unit : attackers.getTeam().getUnits()) {
             if (unit.getHp() > 0) {

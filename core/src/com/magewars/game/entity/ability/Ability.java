@@ -22,8 +22,8 @@ public class Ability {
     protected List<SpecRule> specRules;
 
     @JsonIgnore
-    protected Map<Skill,Double> requirement;
-    protected Map<String,Double> requirementIds;
+    protected Map<Skill, Double> requirement;
+    protected Map<String, Double> requirementIds;
     protected List<AbilityCheck> checks;
     protected List<AbilityDamage> damages;
 
@@ -48,7 +48,7 @@ public class Ability {
         this.id = id;
         this.cost = cost;
         this.name = name;
-        addRequirement(skill,requirement);
+        addRequirement(skill, requirement);
         addChecks(check);
         addDamage(damage);
     }
@@ -103,12 +103,12 @@ public class Ability {
     }
 
     public void addRequirement(Skill skill, Double value) {
-        if(this.requirement==null){
-            this.requirement=new HashMap<Skill, Double>();
-            this.requirementIds=new HashMap<String, Double>();
+        if (this.requirement == null) {
+            this.requirement = new HashMap<Skill, Double>();
+            this.requirementIds = new HashMap<String, Double>();
         }
-        this.requirement.put(skill,value);
-        this.requirementIds.put(skill.getId(),value);
+        this.requirement.put(skill, value);
+        this.requirementIds.put(skill.getId(), value);
     }
 
 
@@ -121,8 +121,8 @@ public class Ability {
     }
 
     public void addChecks(AbilityCheck check) {
-        if(this.checks==null){
-            this.checks=new ArrayList<AbilityCheck>();
+        if (this.checks == null) {
+            this.checks = new ArrayList<AbilityCheck>();
         }
         this.checks.add(check);
     }
@@ -133,14 +133,13 @@ public class Ability {
     }
 
 
-
     public void setDamages(List<AbilityDamage> damages) {
         this.damages = damages;
     }
 
     public void addDamage(AbilityDamage damage) {
-        if(this.damages==null){
-            this.damages=new ArrayList<AbilityDamage>();
+        if (this.damages == null) {
+            this.damages = new ArrayList<AbilityDamage>();
         }
         this.damages.add(damage);
     }
@@ -192,4 +191,5 @@ public class Ability {
     public void setSpecRules(List<SpecRule> specRules) {
         this.specRules = specRules;
     }
+
 }

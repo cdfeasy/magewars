@@ -1,6 +1,8 @@
 package com.magewars.gdx.screens.global;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.Event;
+import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
@@ -24,6 +26,20 @@ public class GlobalFooter extends Table {
         Skin skin = new Skin(Gdx.files.internal("skin/craftacular-ui.json"));
         Button button1 = new TextButton("Button12", skin, "default");
         Button button2 = new TextButton("Button2", skin, "default");
+        button1.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                logger.info("Pressed Button1");
+                return true;
+            }
+        });
+        button2.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                logger.info("Pressed Button2");
+                return true;
+            }
+        });
         AtomicReference<MainGame> ref = new AtomicReference<>();
         row();
         add(button1);

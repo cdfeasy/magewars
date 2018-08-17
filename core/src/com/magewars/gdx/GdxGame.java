@@ -17,7 +17,7 @@ public class GdxGame extends Game {
 
     @Override
     public void create() {
-        viewport = new FitViewport(640, 480);
+        viewport = new FitViewport(1366, 768);
         manager=new GameAssetManager();
         loadingScreen = new LoadingScreen(viewport, this);
         battleScreen = new BattleScreen(viewport, this);
